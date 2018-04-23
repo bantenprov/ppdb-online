@@ -19,7 +19,7 @@ sudo npm install -g hexo-cli
 ```
 Clone repo ppdb-online [panduan]
 ```
-git clone https://github.com/bantenprov/banten-os.git
+git clone https://github.com/bantenprov/panduan-online.git
 cd ppdb-online
 ```
 ```
