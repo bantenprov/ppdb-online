@@ -1,0 +1,1 @@
+hexo.extend.generator.register('cname', require("./generator"));

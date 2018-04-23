@@ -1,0 +1,39 @@
+<% if (page.type) { %>
+    <%- partial('partials/sidebar', { type: page.type, index: page.index }) %>
+<% } else { %>
+  <div class="sidebar">
+    <ul class="main-menu">
+      <%- partial('partials/main_menu', { context: 'sidebar' }) %>
+    </ul>
+  </div>
+<% } %>
+<div class="content <%- page.type ? page.type + ' with-sidebar' : '' %> <%- page.type === 'panduan' ? page.path.replace(/.+\//, '').replace('.html', '') + '-panduan' : '' %>">
+    <% if (page.type) { %>
+      <%- partial('partials/ad') %>
+    <% } %>
+    <% if (page.title.trim()) { %>
+      <h1><%- page.title %><%- page.type === 'examples' ? ' Example' : '' %></h1>
+    <% } %>
+    <%- page.content %>
+
+    <% if (page.type === 'panduan') { %>
+      <div class="guide-links">
+        <% site.pages.find({ type: page.type, lang: page.lang, order: page.order - 1 }).each(function (page) { %>
+          <span>← <a href="<%- url_for_lang(page.path) %>"><%- page.title %></a></span>
+        <% }) %>
+        <% site.pages.find({ type: page.type, lang: page.lang, order: page.order + 1 }).each(function (page) { %>
+          <span style="float:right"><a href="<%- url_for_lang(page.path) %>"><%- page.title %></a> →</span>
+        <% }) %>
+      </div>
+    <% } %>
+
+    <div class="footer">
+        <% if (page.lang == 'id') { %>
+            Menemukan masalah dokumentasi ini ?  <a href="https://github.com/bantenprov/<%- page.path.replace(/\.html$/, '.md') %>" target="_blank"><br> Sunting halaman ini secara langsung di Github  </a>
+        <% } else { %>
+            Found a mistake or want to contribute to the documentation ?  <a href="https://github.com/bantenprov/<%- page.path.replace(/\.html$/, '.md') %>" target="_blank"><br> Edit this page on Github  </a>
+         <% } %>
+
+
+    </div>
+</div>
