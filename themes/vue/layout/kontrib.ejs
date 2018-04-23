@@ -1,0 +1,60 @@
+<% if (page.type) { %>
+    <div class="sidebar">
+      <ul class="main-menu">
+        <%- partial('partials/main_menu', { context: 'sidebar' }) %>
+      </ul>
+    </div>
+<% } else { %>
+
+<% } %>
+<div id="hero" class="content <%- page.type ? page.type + ' with-sidebar' : '' %> <%- page.type === 'panduan' ? page.path.replace(/.+\//, '').replace('.html', '') + '-panduan' : '' %> contrib-width">
+
+    <div class="row center-xs">
+        <div class="col-xs-12 col-md-8">
+            <h1 class="tea-center"><%- page.title %></h1>
+            <p class="tea-center">
+                <%- page.subtitle %>
+            </p>
+        </div>
+    </div>
+
+    <span class="breathe"></span>
+
+    <div class="tea-button-group">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-4">
+                <a class="button responsive white" href="#Tim-Pengembang">Tim Pengembang</a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <a class="button responsive white" href="#Konten-Panduan">Panduan</a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <a class="button responsive white" href="#Pelaporan">Laporan</a>
+            </div>
+
+            <!-- !!!!!!!!!!!!!!
+            !
+            !
+            <div class="col-xs-12 col-sm-6 col-md-3">
+            <a class="button responsive white" href="#">Donasi</a>
+        </div>
+            !
+            !
+            !!!!!!!!!!!!!!!!!!!! -->
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12 col-md-10 col-md-offset-1">
+            <div class="isi-panduan">
+                <%- page.content %>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div id="footer-page">
+  Released under the <a href="https://opensource.org/licenses/MIT" href="_blank">MIT License</a><br>
+  2009-<%- new Date().getFullYear() %> Maintenance by <a href="http://dev.bantenprov.go.id">Development Banten</a>
+</div>

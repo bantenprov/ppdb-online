@@ -1,0 +1,90 @@
+<div class="sidebar">
+  <ul class="main-menu">
+    <%- partial('partials/main_menu', { context: 'sidebar' }) %>
+  </ul>
+</div>
+
+<div id="hero" class="tea-hero">
+  <div class="inner">
+    <div class="left">
+    </div><div class="right">
+      <h2 class="vue" style="color:white;">PPDB Online</h2>
+      <h1>
+        <br>
+        <%= __('index.slogan') %>
+      </h1>
+      <p>
+        <a class="button white" href="<%- url_for_lang('/panduan') %>"><%= __('index.tombol-lihat') %></a>
+      </p>
+    </div>
+  </div>
+</div>
+<div id="feature">
+  <div class="row" >
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      <div class="box-nested right">
+        <h1> Tentang PPDB Online</h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+      <div class="box-nested left-side">
+        <h2>PPDB Online</h2>
+        <p>
+          PPDB Online adalah Sebuah sistem Aplikasi penerimaan Calon Siswa Baru SMA dan SMK Negeri Se-Provinsi Banten, Pelaksanaan PPDB online merupakan kolaborasi antara Dindikbud dan Diskominfo-sp Provinsi Banten
+        </p>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+      <div class="box-nested right-side">
+        <img src="<%- url_for('/images/tentang2.png') %>" alt="PPDB Online"/>
+      </div>
+    </div>
+  </div>
+<div id="highlights">
+  <div class="inner">
+    <div class="point">
+      <span class="icon-umbrella"></span>
+      <h2>Objektif<span class="tulis-teh"><span class="tulis-teh"></span></span></h2>
+      <p>Penerimaan Peserta Didik Baru harus memenuhi ketentuan umum serta sesuai ketentuan peraturan perundang-undangan yang berlaku.</p>
+    </div>
+
+    <div class="point">
+      <span class="icon-diamond"></span>
+      <h2>Transparan<span class="tulis-teh"></span></h2>
+      <p>Pelaksanaan penerimaan Peserta Didik Baru bersifat terbuka dan dapat diketahui oleh masyarakat, untuk menghindari penyimpangan yang mungkin terjadi.</p>
+    </div>
+
+    <div class="point">
+      <span class="icon-globe-alt"></span>
+      <h2>Akuntabel<span class="tulis-teh"></span></h2>
+      <p> Proses penerimaan Peserta Didik Baru dapat dipertanggung jawabkan baik prosedur maupun hasilnya.</p>
+    </div>
+    <div class="point">
+      <span class="icon-chemistry"></span>
+      <h2>Berkeadilan<span class="tulis-teh"></span></h2>
+      <p>
+        Penerimaan Peserta Didik Baru tidak membeda-bedakan ras, suku, agama, tingkat ekonomi, maupun keterbatasan lainnya serta sesuai ketentuan umum dan perundang-undangan yang berlaku.
+      </p>
+    </div>
+  </div>
+</div>
+<div id="footer">
+  Released under the <a href="https://opensource.org/licenses/MIT" href="_blank">MIT License</a><br>
+  2017-<%- new Date().getFullYear() %> Maintenance by <a href="http://dev.bantenprov.go.id">Development Banten</a>
+</div>
+
+<script>
+var topScrolled = false
+window.addEventListener('scroll', function () {
+  if (window.pageYOffset > 165 && !topScrolled) {
+    topScrolled = true
+    document.getElementById('mobile-bar').classList.remove('top')
+  } else if (window.pageYOffset <= 165 && topScrolled) {
+    topScrolled = false
+    document.getElementById('mobile-bar').classList.add('top')
+  }
+})
+</script>

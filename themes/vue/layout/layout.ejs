@@ -1,0 +1,144 @@
+<% var isIndex = page.path === 'index.html' %>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title><%- page.title ? page.title + ' - ' : '' %>Panduan | PPDB 2018</title>
+        <meta charset="utf-8">
+        <meta name="description" content="<%- theme.site_description %>">
+        <meta name="viewport" con tent="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="<%- page.title ? page.title + ' - ' : '' %>Linux BantOS">
+        <meta property="og:description" content="<%- theme.site_description %>">
+        <meta property="og:image" content="https://<%- theme.root_domain %>/images/tealinuxos-logo.png">
+
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:title" content="<%- page.title ? page.title + ' - ' : '' %>Linux BantOS">
+        <meta name="twitter:description" content="<%- theme.site_description %>">
+        <meta name="twitter:image" content="https://<%- theme.root_domain %>/images/tealinuxos-logo.png">
+
+        <link rel="icon" href="<%- url_for('/images/tealinuxos-logos/favicon.ico') %>" type="image/x-icon">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Roboto Mono' rel='stylesheet' type='text/css'>
+        <link href='//fonts.googleapis.com/css?family=Dosis:500&text=Vue.js' rel='stylesheet' type='text/css'>
+
+        <!-- Simple Line Icon    -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
+
+        <!-- CSS GRID -->
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
+
+        <!-- main page styles -->
+        <!-- <%- css(isIndex ? 'css/index' : 'css/page') %> -->
+        <% if (page.layout == 'index' || isIndex) { %>
+            <link rel="stylesheet" href="/css/index.css">
+        <% } else { %>
+            <link rel="stylesheet" href="/css/page.css">
+         <% } %>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css" />
+        <style media="screen">
+            .tea-hero{
+                background: url('<%- url_for('/images/banner-ppdb-2.jpg') %>') no-repeat bottom;
+                background-size: cover;
+            }
+            .zoom-in-out{
+                animation-name: zoom-in-out-rules;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+                animation-direction: alternate-reverse;
+
+            }
+
+            @keyframes zoom-in-out-rules{
+                from{
+                    transform: scale(1,1);
+                    /* width: 70%;
+                    height: 70%; */
+                }to{
+                    transform: scale(1.5,1.5);
+                    /* width: 100%;
+                    height: 100%; */
+                }
+            }
+        </style>
+
+        <!-- this needs to be loaded before guide's inline scripts -->
+        <!-- <script src="/js/vue.js"></script> -->
+        <script>window.PAGE_TYPE = "<%- page.type %>"</script>
+    </head>
+    <body class="<%- isIndex ? '' : 'docs' -%>">
+        <div id="mobile-bar" <%- isIndex ? 'class="top"' : '' %>>
+            <a class="menu-button"></a>
+            <a class="logo" href="/"></a>
+        </div>
+        <%- partial('partials/header') %>
+        <% if (!isIndex) { %>
+            <div id="main" class="fix-sidebar">
+                <% if (page.blog_index) { %>
+                    <%- partial('partials/blog') %>
+                <% } else { %>
+                    <%- body %>
+                <% } %>
+            </div>
+            <script src="/js/smooth-scroll.min.js"></script>
+        <% } else { %>
+            <%- body %>
+        <% } %>
+
+        <!-- main custom script for sidebars, version selects etc. -->
+        <script src="/js/common.js"></script>
+
+        <!-- ga -->
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', '<%- theme.google_analytics %>', '<%- theme.root_domain %>');
+          ga('send', 'pageview');
+        </script>
+
+        <!-- search -->
+        <!-- <link href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" rel='stylesheet' type='text/css'> -->
+        <%- css('css/search') %>
+        <!-- <script src="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script>
+        <script>
+        [
+          '#search-query-nav',
+          '#search-query-sidebar'
+        ].forEach(function (selector) {
+          if (!document.querySelector(selector)) return
+          // search index defaults to v2
+          var match = window.location.pathname.match(/^\/(v\d+)/)
+          var version = match ? match[1] : 'v2'
+          docsearch({
+            appId: '4HHIOVQW5D',
+            apiKey: '81a2df272c14cc262c8b38f6a3afd683',
+            indexName: 'Linux BantOS',
+            inputSelector: selector,
+            algoliaOptions: { facetFilters: ["version:" + version] }
+          })
+        })
+        </script> -->
+
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script>
+        <script type="text/javascript"> docsearch({
+        apiKey: '81a2df272c14cc262c8b38f6a3afd683',
+        indexName: 'Panduan PPDB',
+        inputSelector: '#search-query-nav',
+        debug: false // Set debug to true if you want to inspect the dropdown
+        });
+        </script>
+
+
+        <!-- fastclick -->
+        <script src="//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"></script>
+        <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          FastClick.attach(document.body)
+        }, false)
+        </script>
+    </body>
+</html>
