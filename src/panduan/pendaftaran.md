@@ -8,7 +8,7 @@ order: 103
 
 ### Halaman Depan Aplikasi
 
- [![Halaman Utama](images/psb-umum_halaman-utama.png)](images/psb-umum_halaman-utama.png)
+<!--  [![Halaman Utama](images/psb-umum_halaman-utama.png)](images/psb-umum_halaman-utama.png)
 
 Disaat membuka aplikasi PSB untuk siswa maka akan muncul enam tombol, yaitu tombol **Dashboard**, tombol **Pendaftaran**, tombol **Profil Sekolah**, tombol **Tabel Seleksi**, tombol **Panduan**, dan tombol **Helpdesk**. Tombol prinsip utama akan mengarahkan ke layer asas PPDB dan juga informasi singkat mengenai PPDB.
 
@@ -19,35 +19,37 @@ Berikut ini adalah fungsi tombol yang ada pada halaman utama:
 3. Tombol Profil Sekolah: Tombol ini akan mengarahkan ke halaman profil sekolah.
 4. Tombol Tabel Seleksi: Tombol ini akan mengarahkan ke halaman seleksi.
 5. Tombol Panduan: Tombol ini akan mengarahkan ke halaman panduan.
-6. Tombol Helpdesk: Tombol ini akan mengarahkan ke halaman helpdesk Dindik.
+6. Tombol Helpdesk: Tombol ini akan mengarahkan ke halaman helpdesk Dindik. -->
 
 ### Tampilan Registrasi Siswa
 
 [![Registrasi Siswa](images/halaman-register-siswa.png)](images/halaman-register-siswa.png)
 
-Disaat menekan tombol **Dashboard** pada halaman utama, maka akan muncul menu registrasi. Registrasi dilakukan agar siswa mendapatkan akun untuk proses login pendaftaran. Setelah siswa berhasil melakukan proses registrasi, halaman browser akan langsung menampilkan menu pendaftaran dan juga siswa telah mendapatkan akun yang selanjutnya akan bisa digunakan untuk login.
+Pada menu ini terdapat form registrasi yang harus diisi oleh siswa. Registrasi dilakukan agar siswa mendapatkan akun untuk proses login pendaftaran. Setelah siswa berhasil melakukan proses registrasi, halaman browser akan langsung menampilkan menu pendaftaran dan juga siswa telah mendapatkan akun yang selanjutnya akan bisa digunakan untuk login.
 
  [![Form Registrasi Siswa](images/form-register-siswa.png)](images/form-register-siswa.png)
 
-Di form ini terdapat 5 **field** yang harus diisi oleh siswa agar mendapatkan akun. Filed yang harus diisi yaitu: Nomor UN, Nomor Kartu Keluarga, Tanggal Lahir, Password, dan Konfirmasi Password. 
+Di form ini terdapat 5 **field** yang harus diisi oleh siswa agar mendapatkan akun. Filed yang harus diisi yaitu: Nomor UN, Domisili Siswa, Jenis Pendaftaran, Tanggal Lahir, Password, dan Konfirmasi Password. 
 
 Berikut langkah-langkahnya:
 
 1. Nomor UN: Pada field ini siswa harus mengisi Nomor UN yang dimiliki.
 
-2. Nomor KK: Pada field ini nomor yang diisi harus merupakan kartu keluarga yang berdomisili di seluruh wilayah provinsi Banten. Jika memasukkan nomor kartu keluarga yang bukan berdomisili provinsi Banten maka pendaftaran tidak bisa dilakukan.   
+2. Domisili Siswa: Pada field ini siswa harus mengisi domisili dimana siswa tinggal yang sesuai dengan Kartu Keluarga. Domisili ini nantinya menetukan pilihan sekolah yang akan dituju oleh siswa. Domisili terdiri dari Kabupaten/Kota yang terdapat di wilayah Provinsi Banten.
 
-3. Tanggal Lahir: Pada field ini siswa diharuskan mengisi tanggal lahir siswa sesuai yang tertera pada kartu keluarga. Format yang diisi yaitu: tanggal-bulan-tahun, contoh jika siswa lahir pada tanggal 01 Februari 2003 maka format yang harus diisi yaitu: **010203**.
+3. Jenis Pendaftaran: Pada field ini terdapat pilihan jalur pendaftaran yang akan dituju oleh siswa. 
 
-4. Password: Pada field ini siswa harus mengisi password yang akan digunakan untuk login.
+4. Tanggal Lahir: Pada field ini siswa diharuskan mengisi tanggal lahir siswa sesuai yang tertera pada kartu keluarga. Format yang diisi yaitu: tanggal-bulan-tahun, contoh jika siswa lahir pada tanggal 01 Februari 2003 maka format yang harus diisi yaitu: **010203**.
 
-5. Konfirmasi Password: Pada field ini siswa harus mengisi ulang password yang telah diketikkan di field password.
+5. Password: Pada field ini siswa harus mengisi password yang akan digunakan untuk login.
 
-Jika sudah diisi semua tekan tombol register dan akan langsung terbuka halaman pendaftaran.
+6. Konfirmasi Password: Pada field ini siswa harus mengisi ulang password yang telah diketikkan di field password.
+
+Jika sudah diisi semua tekan tombol daftar dan akan langsung terbuka halaman pendaftaran.
 
 ### Tampilan Login Siswa
 
- [![Tampilan Login](images/halaman-login-siswa.png)](images/halaman-login-siswa.png)
+[![Tampilan Login](images/halaman-login-siswa.png)](images/halaman-login-siswa.png)
 
 Untuk masuk ke halaman pendaftaran siswa di haruskan login dahulu menggunakan akun yang telah dimiliki sebelumnya. Jika siswa belum mempunyai akun maka siswa bisa melakukan registrasi dahulu di halaman registrasi.
 
@@ -57,9 +59,9 @@ Di form ini hanya terdapat 2 field yang harus diisi, yaitu Nomor UN dan password
 
 ### Tampilan Lupa Password
  
- [![Tampilan Lupa Password](images/reset-password.png)](images/reset-password.png)
+<!--  [![Tampilan Lupa Password](images/reset-password.png)](images/reset-password.png)
 
-Untuk mengakses halaman ini, siswa harus menekan tulisan **Forgot Your Password?** pada form login. Dihalaman ini siswa akan melihat form yang bertuliskan reset password, halaman ini berfungsi untuk melakukan reset password, jika siswa lupa dengan password akun yang dimiliki. Siswa dapat menuliskan alamat e-mail didalam form yang tersedia, lalu menekan tombol "Send Password Reset Link" maka akan dikirimkan password baru pada alamat e-mail yang dikirimkan.
+Untuk mengakses halaman ini, siswa harus menekan tulisan **Forgot Your Password?** pada form login. Dihalaman ini siswa akan melihat form yang bertuliskan reset password, halaman ini berfungsi untuk melakukan reset password, jika siswa lupa dengan password akun yang dimiliki. Siswa dapat menuliskan alamat e-mail didalam form yang tersedia, lalu menekan tombol "Send Password Reset Link" maka akan dikirimkan password baru pada alamat e-mail yang dikirimkan. -->
 
 ### Tampilan Menu Pendaftaran Siswa
 
@@ -67,187 +69,139 @@ Untuk mengakses halaman ini, siswa harus menekan tulisan **Forgot Your Password?
 
 Didalam halaman ini, siswa dapat melakukan pendaftaran ke sekolah yang akan ditujunya. Untuk melakukan proses pendaftaran siswa di haruskan mengisi form-form yang telah disediakan. Dan pada bagian kanan atas halaman terdapat menu profile yang dapat dilihat dan jika di klik akan mengarahkan ke menu profile siswa.
 
-#### Form Pendaftaran
-
- [![Form Pendaftaran](images/form-pendaftaran.png)](images/form-pendaftaran.png)
-
-Pada form ini terdapat 3 field yang tersedia yaitu: Tanggal Pendaftaran, Kegiatan, dan Username.
-
-Pada form ini field Tanggal Pendaftaran dan Username akan otomatis terisi, jadi siswa hanya mengisi field kegiatan saja. Field kegiatan diisi dengan memilih jalur pendaftaran yang dituju. Berikut contoh pilihan pada field kegiatan.
-
- [![Field Kegiatan](images/kegiatan-siswa.png)](images/kegiatan-siswa.png)
-
-Contoh Jika form pendaftaran sudah diisi
-
- [![Form Pendaftaran Filled](images/form-pendaftaran-diisi.png)](images/form-pendaftaran-diisi.png)
-
-Jika field yang dibutuhkan sudah diisi maka siswa bisa melanjutkan mengisi form selanjutnya dengan menekan tombol next.
-
- [![Tombol next](images/tombol-next-menu-pendaftaran.png)](images/tombol-next-menu-pendaftaran.png)
-
-
-#### Form Data Siswa
+### Form Data Siswa
 
  [![Form Data Siswa](images/form-data-siswa.png)](images/form-data-siswa.png)
 
-Di form ini siswa harus mengisi identitas lengkap dengan mengisi seluruh field yang tersedia. Pada form ini terdapat 19 field yang harus diisi yaitu: NIK, Nama Siswa, Nomor Kartu Keluarga, Alamat Kartu Keluarga, Provinsi, Kabupaten, Kecamatan, Desa/Kelurahan, Tempat Lahir, Tanggal Lahir: Tanggal Bulan Tahun, Jenis Kelamin, Agama, NISN, Tahun Lulus, Sekolah Tujuan, Prodi Sekolah, dan Username.
+Di form ini siswa harus melengkapi identitas lengkap dengan mengisi field yang tersedia. Pada form ini terdapat 7 field yang tersedia yaitu: Nomor UN, Nama Siswa, Tempat Lahir, Tanggal Lahir, Jenis Kelamin, Agama, dan NISN.
 
- [![Form Data Siswa 2](images/form-data-siswa2.png)](images/form-data-siswa2.png)
- [![Form Data Siswa 3](images/form-data-siswa3.png)](images/form-data-siswa3.png)
- [![Form Data Siswa 4](images/form-data-siswa-4.png)](images/form-data-siswa-4.png)
-
-Pada form ini field Nama Siswa, No KK dan Username akan otomatis terisi, berikut langkah-langkahnya:
-
-1. NIK: Pada field ini siswa harus mengisi nomor NIK yang dimiliki siswa.
-
-2. Nama Siswa: Pada field ini nama siswa otomatis teriisi.
-
-3. No KK: Pada field ini nomor kartu keluarga akan otomatis teriisi.
-
-4. Alamat KK: Pada field ini siswa harus mengisi alamat sesuai dengan yang tertera pada kartu keluarga.
-
-5. Provinsi: Pada Field ini siswa memilih Provinsi dimana siswa tinggal. Berikut ini merupakan contoh pilihan field Provinsi:
-
- [![Field Provinsi](images/provinsi.png)](images/provinsi.png)
-
-6. Kabupaten: Pada field ini siswa memilih Kabupaten dimana siswa tinggal. Berikut ini merupakan contoh pilihan field Kabupaten:
-
- [![Field Kabupaten](images/kabupaten.png)](images/kabupaten.png)
-
-7. Kecamatan: Pada field ini siswa memilih Kecamatan dimana siswa tinggal. Berikut ini merupakan contoh pilihan field Kecamatan:
-
- [![Field Kecamatan](images/kota.png)](images/kota.png)
-
-8. Desa/Kelurahan: Pada field ini siswa memilih Desa/Kelurahan dimana siswa tinggal. Berikut ini merupakan contoh pilihan field Desa/Kelurahan: 
-
- [![Field Desa/Kelurahan](images/desa.png)](images/desa.png)
-
-9. Tempat Lahir: Pada field ini siswa harus mengisi tempat lahir sesuai dengan yang tertera pada kartu keluarga.
-
-10. Tanggal Lahir: Pada pengisian tanggal lahir terdapat tiga field yang harus diisi yaitu tanggal, bulan, dan tahun. Field ini diisi dengan cara memilih tanggal, bulan, dan tahun yang tersedia. 
-
- [![Field Tanggal Lahir](images/form-tanggal-lahir.png)](images/form-tanggal-lahir.png)
-
- Berikut contoh pilihan field tanggal lahir:
-
- [![Field Tanggal](images/tanggal-lahir.png)](images/tanggal-lahir.png)
-
- [![Field Bulan](images/bulan-lahir.png)](images/bulan-lahir.png)
-
- [![Field Tahun](images/tahun-lahir.png)](images/tahun-lahir.png)
-
-11. Jenis Kelamin: Pada field ini siswa mengisi jenis kelamin dengan cara memilih jenis kelamin yang tersedia, berikut contoh pilihan field jenis kelamin:
-
- [![Field Jenis Kelamin](images/jenis-kelamin.png)](images/jenis-kelamin.png)
-
-12. Agama: Pada field ini siswa mengisi agama yang dianut dengan cara memilih agama yang tersedia, berikut contoh pilihan field agama:
-
- [![Field Agama](images/agama.png)](images/agama.png)
-
-13. NISN: Pada field ini siswa mengisi nomor NISN yang dimiliki.
-
-14. Tahun Lulus: Pada field ini siswa mengisi tahun lulus sesuai dengan waktu kelulusan siswa, field ini diisi dengan cara memilih tahun kelulusan yang tersedia. Berikut contoh pilihan field tahun lulus:
-
- [![Field Tahun Lulus](images/tahun-lulus.png)](images/tahun-lulus.png)
-
-15. Sekolah Tujuan: Pada field ini siswa mengisi sekolah yang nantinya akan dituju oleh siswa. Pada field ini terdapat list sekolah yang dapat dituju oleh siswa, list sekolah akan muncul sesuai dengan jalur pendaftaran yang dipilih siswa pada form pendaftaran. Jika pada form pendaftaran siswa memilih jalur SMA maka pada list hanya akan muncul sekolah SMA, begitu juga dengan SMK, jika pada form pendaftaran memilih jalur SMK maka hanya akan muncul sekolah SMK. Berikut ini merupakan contoh pilihan field sekolah:
-
- [![Field Sekolah Tujuan](images/sekolah-tujuan.png)](images/sekolah-tujuan.png)
-
-16. Prodi Sekolah: Pada field ini siswa memilih prodi yang ditawarkan oleh sekolah, jika sekolah yang dipilih tidak memiliki prodi khusus maka pilihan ini tidak bisa dipilih. Berikut ini merupakan contoh pilihan field prodi sekolah:
-
- [![Field Prodi Sekolah](images/prodi-sekolah.png)](images/prodi-sekolah.png)
-
-17. Username: Pada field ini akan terisi otomatis dengan Nomor UN siswa.
+Pada form ini field Nomor UN, Nama Siswa, Tempat Lahir, Tanggal Lahir dan NISN akan otomatis terisi, jadi siswa hanya mengisi field Jenis Kelamin dan Agama saja.
 
 Berikut ini merupakan contoh form yang sudah selesai terisi:
 
  [![Contoh Form Data Siswa Terisi 1](images/data-siswa-terisi1.png)](images/data-siswa-terisi1.png)
- [![Contoh Form Data Siswa Terisi 2](images/data-siswa-terisi2.png)](images/data-siswa-terisi2.png)
- [![Contoh Form Data Siswa Terisi 3](images/data-siswa-terisi3.png)](images/data-siswa-terisi3.png)
  
-Jika field yang dibutuhkan sudah diisi maka siswa bisa melanjutkan mengisi form selanjutnya dengan menekan tombol next.
+Jika field yang dibutuhkan sudah diisi maka siswa bisa melanjutkan mengisi form selanjutnya dengan menekan tombol simpan.
 
- [![Tombol Next](images/tombol-next-menu-pendaftaran.png)](images/tombol-next-menu-pendaftaran.png)
+ [![Tombol Simpan](images/tombol-simpan-menu-pendaftaran.png)](images/tombol-simpan-menu-pendaftaran.png)
 
 #### Form Data Orang Tua
 
- [![Form Data Orang Tua](images/form-data-orang-tua.png)](images/form-data-orang-tua.png)
+[![Form Data Orang Tua](images/form-data-orang-tua.png)](images/form-data-orang-tua.png)
 
-Di form ini siswa harus mengisi identitas orang tua dengan mengisi seluruh field yang tersedia. Pada form ini terdapat 9 field yang harus diisi yaitu: Nomor Telepon, Nama Ayah, Nama Ibu, Pendidikan Ayah, Pekerjaan Ayah, Pendidikan Ibu, Pekerjaan Ibu, Alamat Orang Tua dan Username.
+Di form ini siswa harus mengisi identitas orang tua dengan mengisi seluruh field yang tersedia. Pada form ini terdapat 4 field yang harus diisi yaitu: Pendidikan Orang Tua Pekerjaan Ibu, Alamat Orang Tua dan Username.
 
- [![Form Data Orang Tua 2](images/form-data-orang-tua2.png)](images/form-data-orang-tua2.png)
- [![Form Data Orang Tua 3](images/form-data-orang-tua3.png)](images/form-data-orang-tua3.png)
+Berikut langkah pengisiannya:
 
-Pada form ini field Username akan otomatis terisi, berikut langkah-langkahnya:
+1. Nama Orang Tua: Pada field ini siswa mengisi nama orang tua siswa.
 
-1. Nomor Telepon: Pada field ini siswa mengisi nomor telepon yang dimiliki oleh orang tua siswa.
+2. Nomor Telepon: Pada field ini siswa mengisi nomor telepon orang tua siswa yang bisa dihubungi.
 
-2. Nama Ayah: Pada field ini siswa mengisi nama Ayah siswa sesuai yang tertera pada kartu keluarga.
+3. Pendidikan Orang Tua: Pada field ini siswa mengisi pendidikan orang tua siswa.
 
-3. Nama Ibu: Pada field ini siswa mengisi nama Ibu siswa sesuai dengan yang tertera pada kartu keluarga.
-
-4. Pendidikan Ayah: Pada field ini siswa mengisi Pendidikan Ayah siswa sesuai dengan yang tertera pada kartu keluarga.
-
-5. Pekerjaan Ayah: Pada field ini siswa mengisi Pekerjaan Ayah sesuai dengan yang tertera pada kartu keluarga.
-
-6. Pendidikan Ibu: Pada field ini siswa mengisi Pendidikan Ibu siswa sesuai dengan yang tertera pada kartu keluarga.
-
-7. Pekerjaan Ibu: Pada field ini siswa mengisi Pekerjaan Ibu siswa sesuai dengan yang tertera pada kartu keluarga.
-
-8. Alamat Orang Tua: Pada field ini siswa mengisi alamat orang tua siswa sesuai dengan yang tertera pada kartu keluarga.
-
-9. Username: Pada field ini akan terisi otomatis dengan Nomor UN siswa.
+4. Pekerjaan Orang Tua: Pada field ini siswa mengisi Pekerjaan orang tua siswa.
 
 Berikut ini merupakan contoh form yang sudah selesai terisi:
 
  [![Contoh Form Data Orang Tua Terisi 1](images/data-orang-tua-terisi1.png)](images/data-orang-tua-terisi1.png)
- [![Contoh Form Data Orang Tua Terisi 2](images/data-orang-tua-terisi2.png)](images/data-orang-tua-terisi2.png)
+ 
+Jika field yang dibutuhkan sudah diisi maka siswa bisa melanjutkan mengisi form selanjutnya dengan menekan tombol simpan.
 
-Jika field yang dibutuhkan sudah diisi maka siswa bisa melanjutkan mengisi form selanjutnya dengan menekan tombol next.
+ [![Tombol simpan](images/tombol-simpan-menu-pendaftaran.png)](images/tombol-simpan-menu-pendaftaran.png)
 
- [![Tombol Next](images/tombol-next-menu-pendaftaran.png)](images/tombol-next-menu-pendaftaran.png)
+### Form Alamat
 
-#### Form Review
+[![Form Alamat](images/form-data-alamat.png)](images/form-data-alamat.png)
 
- [![Form Review](images/form-review.png)](images/form-review.png)
+Di form ini siswa harus mengisi alamat siswa yang sesuai dengan Kartu keluarga siswa. Pada form ini terdapat 6 field yang harus diisi yaitu: Nomor KK, Alamat, Provinsi, Kabupaten/Kota, Kecamatan, dan Kelurahan/Desa.
 
-Di form ini terdapat informasi sesuai dengan apa yang telah diisi oleh siswa. Jika dirasa masih ada beberapa kesalahan maka siswa masih bisa mengeditnya dengan menekan tombol back yang tersedia pada bagian kiri bawah halaman atau juga dengan menekan menu form yang tersedia di bagian atas form dengan cara menekannya, siswa bisa memilih form mana yang kiranya masih terdapat kesalahan pengisian.
+Berikut langkah pengisiannya:
 
- [![Tombol Back](images/tombol-back-menu-pendaftaran.png)](images/tombol-back-menu-pendaftaran.png)
+1. Nomor KK: Pada field ini siswa mengisi nomor Kartu Keluarga siswa.
 
- [![Pilih Form](images/tombol-pilih-form-menu-pendaftaran.png)](images/tombol-pilih-form-menu-pendaftaran.png)
+2. Alamat: Pada field ini siswa mengisi alamat siswa sesuai yang tertera di Kartu Keluarga.
 
-Jika semua data yang diisi sudah benar maka siswa harus menekan tombol register yang terdapat pada bagian kanan bawah di form review. 
+3. Provinsi: Field ini akan terisi otomatis dengan Provinsi Banten.
 
- [![Tombol Register](images/tombol-register-menu-pendaftaran.png)](images/tombol-register-menu-pendaftaran.png) 
+4. Kabupaten/Kota: Field ini akan terisi otomatis sesuai pilihan siswa ketika melakukan registrasi.
 
-Jika Registrasi sudah berhasil maka akan tampil pemberitahuan seperti berikut ini:
+5. Kecamatan: Pada field ini siswa mengisi kecamatan dimana siswa tinggal.
 
- [![Pop Up Berhasil Registrasi](images/pendaftaran-berhasil.png)](images/pendaftaran-berhasil.png)
+6. Kelurahan/Desa: Pada field ini siswa mengisi kelurahan/desa dimana siswa tinggal.
 
-Berikut merupakan tampilan sesudah register:
+Berikut ini merupakan contoh form yang sudah selesai terisi:
 
- [![Form Review Registered](images/form-review-registered.png)](images/form-review-registered.png)
+ [![Contoh Form Alamat Terisi 1](images/data-alamat-terisi1.png)](images/data-alamat-terisi1.png)
+ 
+Jika field yang dibutuhkan sudah diisi maka siswa bisa melanjutkan mengisi form selanjutnya dengan menekan tombol simpan.
 
-Jika sudah di tekan maka tampilan review akan berubah dan Nilai UN siswa akan terlihat. 
+ [![Tombol simpan](images/tombol-simpan-menu-pendaftaran.png)](images/tombol-simpan-menu-pendaftaran.png)
 
- [![Form Review Registered 2](images/form-review-registered2.png)](images/form-review-registered2.png)
+### Form Sekolah Tujuan
 
-Pada form ini akan tersedia juga barcode yang bisa di scan menggunakan aplikasi android. Siswa juga dapat melakukan print out form ini dengan cara menekan tombol print yang tersedia.
+[![Form Sekolah Tujuan](images/form-sekolah-tujuan.png)](images/form-sekolah-tujuan.png)
 
- [![Barcode](images/barcode.png)](images/barcode.png)
+Sekolah Tujuan: Pada field ini siswa mengisi sekolah yang nantinya akan dituju oleh siswa. Pada field ini terdapat list sekolah yang dapat dituju oleh siswa, list sekolah akan muncul sesuai dengan jalur pendaftaran yang dipilih siswa pada form pendaftaran. Jika pada form pendaftaran siswa memilih jalur SMA maka pada list hanya akan muncul sekolah SMA, begitu juga dengan SMK, jika pada form pendaftaran memilih jalur SMK maka hanya akan muncul sekolah SMK. Berikut ini merupakan contoh pilihan field sekolah:
 
- [![Tombol Print](images/tombol-print.png)](images/tombol-print.png)
+Prodi Sekolah: Pada field ini siswa memilih prodi yang ditawarkan oleh sekolah, jika sekolah yang dipilih tidak memiliki prodi khusus maka field ini tidak akan muncul di dalam form. Berikut ini merupakan contoh pilihan field prodi sekolah:
 
-Setelah proses ini selesai, maka siswa hanya tinggal menunggu verifikasi dari admin sekolah yang dituju. Jika admin sekolah telah melakukan verfikasi maka status pada form review akan berubah menjadi **Verifikasi**. Berikut contoh pendaftaran yang telah di verifikasi oleh admin sekolah:
+ [![Field Prodi Sekolah](images/prodi-sekolah.png)](images/prodi-sekolah.png) 
 
- [![Form Review Terverifikasi](images/form-review-veryfied.png)](images/form-review-veryfied.png)
+### Form Akademik
 
+[![Form Akademik](images/form-akademik.png)](images/form-akademik.png)
 
-### Tampilan Menu Profile Siswa
+Di form ini terdapat informasi mengenai hasil Nilai UN siswa. Siswa bisa melihat Nilai UN yang didapatkan oleh siswa.
 
-Untuk mengakses menu ini siswa dapat menekan tombol profile yang terdapat pada bagian kanan atas halaman seperti berikut:
+### Form SKTM
+
+[![Form SKTM](images/form-data-sktm.png)](images/form-data-sktm.png)
+
+Di form ini siswa harus mengisi SKTM yang dimiliki oleh siswa. Pada form ini terdapat 3 field yang harus diisi yaitu: SKTM, Nomor SKTM, dan Tanggal Dikeluarkan/Masa Berlaku.
+
+Berikut langkah pengisiannya:
+
+1. SKTM: Pada field ini siswa mengisi jenis SKTM yang dimiliki oleh siswa, jika siswa tidak memiliki SKTM maka siswa harus memilih **Tidak Mengajukan SKTM**.
+
+2. Nomor SKTM: Pada field ini siswa mengisi nomor SKTM yang tertera di kartu SKTM Milik siswa, jika siswa tidak memilik SKTM maka diisi dengan "**-**".
+
+3. Tanggal Dikeluarkan/Masa Berlaku: Pada field ini siswa mengisi tanggal dikeluarkannya SKTM dan juga masa berlakunya, jika siswa tidak memilik SKTM maka diisi dengan "**-**".
+
+Berikut ini merupakan contoh form yang sudah selesai terisi:
+
+ [![Contoh Form SKTM Terisi 1](images/data-sktm-terisi1.png)](images/data-sktm-terisi1.png)
+ 
+Jika field yang dibutuhkan sudah diisi maka siswa bisa melanjutkan mengisi form selanjutnya dengan menekan tombol simpan.
+
+ [![Tombol simpan](images/tombol-simpan-menu-pendaftaran.png)](images/tombol-simpan-menu-pendaftaran.png)
+
+### Form Prestasi
+
+[![Form Prestasi](images/form-data-prestasi.png)](images/form-data-prestasi.png)
+
+Form ini hanya tersedia bagi siswa yang memilih pendaftaran jalur **Prestasi**. Di form ini siswa harus mengisi keterangan prestasi yang dimiliki oleh siswa. Pada form ini terdapat 4 field yang harus diisi yaitu: Jenis Prestasi, Nama Lomba, Juara, dan Tingkat.
+
+Berikut langkah pengisiannya:
+
+1. Jenis Prestasi: Pada field ini siswa memilih jenis prestasi yang dimiliki oleh siswa.
+
+2. Nama Lomba: Pada field ini siswa mengisi nama lomba yang diikuti oleh siswa.
+
+3. Juara: Pada field ini siswa mengisi juara yang didapatkan pada perlombaan yang diikuti oleh siswa.
+
+4. Tingkat: Pada field ini siswa mengisi tingkat perlombaan yang diikuti oleh siswa.
+
+Berikut ini merupakan contoh form yang sudah selesai terisi:
+
+ [![Contoh Form Prestasi](images/data-prestasi-terisi1.png)](images/data-prestasi-terisi1.png)
+ 
+Jika field yang dibutuhkan sudah diisi maka siswa bisa melanjutkan mengisi form selanjutnya dengan menekan tombol simpan.
+
+ [![Tombol simpan](images/tombol-simpan-menu-pendaftaran.png)](images/tombol-simpan-menu-pendaftaran.png)
+
+### Tampilan Menu Pindah Sekolah
+
+<!-- Untuk mengakses menu ini siswa dapat menekan tombol profile yang terdapat pada bagian kanan atas halaman seperti berikut:
 
  [![Tombol Profile Siswa](images/tombol-profile-menu-pendaftaran.png)](images/tombol-profile-menu-pendaftaran.png)
 
@@ -257,10 +211,10 @@ Pada menu ini siswa dapat melihat profile singkat siswa, seperti Nama, Nomor UN,
 
 Pada menu ini siswa bisa melakukan edit profile yang terbatas hanya pada alamat E-mail dan penggantian password.
 
- <!-- [![Menu Profile Siswa](images/form-profile.png)](images/form-profile.png) -->
+ [![Menu Profile Siswa](images/form-profile.png)](images/form-profile.png) -->
 
-Jika siswa ingin mengeditnya bisa dengan menekan tombol edit yang tersedia atau dengan menekan tombol profile dan memilih menu settings. Berikut merupakan contoh tampilan settings:
+<!-- Jika siswa ingin mengeditnya bisa dengan menekan tombol edit yang tersedia atau dengan menekan tombol profile dan memilih menu settings. Berikut merupakan contoh tampilan settings:
 
  [![Menu Settings](images/menu-settings.png)](images/menu-settings.png)
 
- [![Menu Settings](images/menu-settings2.png)](images/menu-settings2.png)
+ [![Menu Settings](images/menu-settings2.png)](images/menu-settings2.png) -->
