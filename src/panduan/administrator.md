@@ -95,13 +95,25 @@ Di menu ini admin dapat merubah data seleksi jika dirasa masih ada kesalahan.
 
 [![Menu Data Akademik](administrator/psb-umum_menu-data-akademik-admin.png)](administrator/psb-umum_menu-data-akademik-admin.png)
 
-Didalam **menu** ini terdapat data identitas seluruh siswa yang nantinya akan dijadikan acuan pada saat proses pendaftaran. Siswa yang yang akan melakukan pendaftaran ke SMA dan SMK datanya akan dibandingkan dengan data yang ada di sini. Jika data siswa tidak ada di data akademik, maka siswa tidak dapat melakukan pendaftaran ke situs PPDB Online. Jika siswa telah melakukan pendaftaran maka akan ditandai dengan terisinya nomor Kartu keluarga pada data akademik yang dapat dilihat di index menu, jika siswa belum melakukan pendaftaran maka nomor Kartu keluarga akan terlihat kosong. Pada menu ini admin dapat melihat data identitas lengkap dari siswa tersebut. Pada menu ini admin tidak memiliki akses untuk menambahkan dan mengedit data, dan hanya dapat melihat data akademik yang telah ada.
+Didalam **menu** ini terdapat data identitas seluruh siswa yang nantinya akan dijadikan acuan pada saat proses pendaftaran. Siswa yang yang akan melakukan pendaftaran ke SMA dan SMK datanya akan dibandingkan dengan data yang ada di sini. Jika data siswa tidak ada di data akademik, maka siswa tidak dapat melakukan pendaftaran ke situs PPDB Online. Jika siswa telah melakukan pendaftaran maka akan ditandai dengan terisinya nomor Kartu keluarga pada data akademik yang dapat dilihat di index menu, jika siswa belum melakukan pendaftaran maka nomor Kartu keluarga akan terlihat kosong. Pada menu ini admin dapat melihat data identitas lengkap dari siswa tersebut. Pada menu ini admin dapat menambahkan, melihat, dan mengedit Data Akademik yang telah ada.
+
+Berikut ini merupakan tampilan **Add** Data Akademik:
+
+[![Add Data Akademik](administrator/psb-umum_menu-add-siswa-admin.png)](administrator/psb-umum_menu-add-siswa-admin.png)
+
+**Di menu ini admin dapat menambahkan data siswa yaitu: Nomor UN, NIK, Nama Siswa, No KK, Alamat KK, Tempat Lahir, Tanggal Lahir, Jenis Kelamin, Agama, NISN, Tahun Lulus, Sekolah Tujuan, Prodi Sekolah, Provinsi, Kabupaten/Kota, Kecamatan, dan Kelurahan/Desa.** 
 
 Berikut ini merupakan tampilan **Show** Data Akademik:
 
 [![Show Data Akademik](administrator/psb-umum_menu-show-data-akademik-admin.png)](administrator/psb-umum_menu-show-data-akademik-admin.png)
 
 Di menu ini admin dapat melihat data Data Akademik yang telah ada.
+
+Berikut ini merupakan tampilan **Edit** Data Akademik:
+
+[![Add Data Akademik](administrator/psb-umum_menu-add-siswa-admin.png)](administrator/psb-umum_menu-add-siswa-admin.png)
+
+**Di menu ini admin dapat menambahkan data siswa yaitu: Nomor UN, NIK, Nama Siswa, No KK, Alamat KK, Tempat Lahir, Tanggal Lahir, Jenis Kelamin, Agama, NISN, Tahun Lulus, Sekolah Tujuan, Prodi Sekolah, Provinsi, Kabupaten/Kota, Kecamatan, dan Kelurahan/Desa.**
 
 #### Tampilan Menu Siswa 
 
