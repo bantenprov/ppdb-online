@@ -143,7 +143,7 @@ Jika field yang dibutuhkan sudah diisi maka siswa bisa melanjutkan mengisi form 
 
 Sekolah Tujuan: Pada field ini siswa mengisi sekolah yang nantinya akan dituju oleh siswa. Pada field ini terdapat list sekolah yang dapat dituju oleh siswa, list sekolah akan muncul sesuai dengan jalur pendaftaran yang dipilih siswa pada form pendaftaran. Jika pada form pendaftaran siswa memilih jalur SMA maka pada list hanya akan muncul sekolah SMA, begitu juga dengan SMK, jika pada form pendaftaran memilih jalur SMK maka hanya akan muncul sekolah SMK. Berikut ini merupakan contoh pilihan field sekolah:
 
-Prodi Sekolah: Pada field ini siswa memilih prodi yang ditawarkan oleh sekolah, jika sekolah yang dipilih tidak memiliki prodi khusus maka field ini tidak akan muncul di dalam form. Berikut ini merupakan contoh pilihan field prodi sekolah:
+Prodi Sekolah: Field ini hanya muncul untuk siswa yang memilih jalur pendaftaran SMK. Pada field ini siswa memilih prodi yang ditawarkan oleh sekolah, jika sekolah yang dipilih tidak memiliki prodi khusus maka field ini tidak akan muncul di dalam form. Berikut ini merupakan contoh pilihan field prodi sekolah:
 
  [![Field Prodi Sekolah](images/prodi-sekolah.png)](images/prodi-sekolah.png) 
 
@@ -201,20 +201,35 @@ Jika field yang dibutuhkan sudah diisi maka siswa bisa melanjutkan mengisi form 
 
 ### Tampilan Menu Pindah Sekolah
 
-<!-- Untuk mengakses menu ini siswa dapat menekan tombol profile yang terdapat pada bagian kanan atas halaman seperti berikut:
+[![Form Pindah Sekolah](images/form-pindah-sekolah.png)](images/form-pindah-sekolah.png)
 
- [![Tombol Profile Siswa](images/tombol-profile-menu-pendaftaran.png)](images/tombol-profile-menu-pendaftaran.png)
+**Pindah Sekolah Merupakan** menu yang di sediakan didalam aplikasi PPDB Online agar siswa yang tidak lulus dalam passing grade pada sekolah tertentu dapat melakukan pindah ke sekolah lain. Siswa dapat melakukan perpindahan sekolah berulang kali sampai siswa mendapatkan kursi pada sekolah yang ingin ditujunya. Untuk mengakses menu ini siswa harus menunggu verifikasi pendaftaran dari admin sekolah. Ketika admin sekolah telah melakukan verifikasi pendaftaran maka siswa tidak dapat merubah seluruh data yang telah di buat siswa di dalam form pendaftaran. Untuk melakukan perpindahan sekolah berikut adalah langkah-langkahnya:
 
-Pada menu ini siswa dapat melihat profile singkat siswa, seperti Nama, Nomor UN, E-mail, Nilai UN, Nilai Akademik, Nilai Prestasi, SKTM, dan juga Nilai Zona. Untuk melihat nilai Prestasi, SKTM, dan Zona, siswa harus menunggu proses verifikasi admin sekolah terlebih dahulu. Jika admin sekolah telah selesai melakukan verifikasi maka tampilan nilai akan berubah menjadi seperti di bawah ini:
+1. Tekan tombol **Add Data** pada form pindah sekolah
+ 
+ [![Tombol Add Data](images/tombol-add-data.png)](images/tombol-add-data.png)
 
- [![Tombol Profile Siswa Terverifikasi](images/tombol-profile-menu-pendaftaran2.png)](images/tombol-profile-menu-pendaftaran2.png)
+2. Lalu isi form pindah sekolah:
 
-Pada menu ini siswa bisa melakukan edit profile yang terbatas hanya pada alamat E-mail dan penggantian password.
+ - Kabupaten/Kota: Diisi dengan wilayah sekolah yang ingin dituju oleh siswa (Pilihan ini hanya untuk siswa yang memilih jalur pendaftaran SMK).
 
- [![Menu Profile Siswa](images/form-profile.png)](images/form-profile.png) -->
+ - Nama Sekolah: Diisi dengan sekolah yang ingin di tuju.
 
-<!-- Jika siswa ingin mengeditnya bisa dengan menekan tombol edit yang tersedia atau dengan menekan tombol profile dan memilih menu settings. Berikut merupakan contoh tampilan settings:
+ - Program Studi: Diisi dengan program studi yang diinginkan (Pilihan ini hanya untuk siswa yang memilih jalur pendaftaran SMK).
 
- [![Menu Settings](images/menu-settings.png)](images/menu-settings.png)
+ - Jika pengisian sudah selesai maka tekan tombol **Simpan**.
 
- [![Menu Settings](images/menu-settings2.png)](images/menu-settings2.png) -->
+ [![Form pindah sekolah terisi](images/form-pindah-sekolah-terisi.png)](images/form-pindah-sekolah-terisi.png)
+
+Beikut ini adalah hasil dari perpindahan sekolah yang telah dilakukan oleh siswa:
+
+Sebelum melakukan perpindahan sekolah (Pada contoh ini sekolah terakhir yang dituju siswa adalah **SMK Negeri 1 Kragilan**):
+
+[![Sebelum Melakukan Perpindahan Sekolah](images/form-sebelum-pindah-sekolah.png)](images/form-sebelum-pindah-sekolah.png)
+
+Setelah melakukan perpindahan sekolah:
+
+[![Setelah Melakukan Perpindahan Sekolah](images/form-setelah-pindah-sekolah.png)](images/form-setelah-pindah-sekolah.png)
+
+## Passing Grade
+

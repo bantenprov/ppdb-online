@@ -8,7 +8,7 @@ order: 104
 
 ### Tampilan Halaman Utama
 
- [![Halaman Utama](adminsekolah/psb-umum_halaman-utama.png)](adminsekolah/psb-umum_halaman-utama.png)
+<!--  [![Halaman Utama](adminsekolah/psb-umum_halaman-utama.png)](adminsekolah/psb-umum_halaman-utama.png)
 
 Disaat membuka aplikasi PSB untuk admin maka akan muncul tombol **Dashboard**. Disebelah kanan atas terdapat tombol **prinsip utama** dan **login** yang dapat digunakan jika sudah memiliki akun. Tombol prinsip utama akan mengarahkan ke layer asas PPDB dan juga informasi singkat mengenai PPDB.
 
@@ -16,27 +16,68 @@ Berikut ini adalah tampilan layer mengenai informasi singkat dan asas PPDB pada 
 
  [![AInformasi Singkat PPDB](adminsekolah/psb-umum_informasi-singkat-ppdb.png)](adminsekolah/psb-umum_informasi-singkat-ppdb.png)
 
- [![Asas PPDB](adminsekolah/psb-umum_asas-ppdb.png)](adminsekolah/psb-umum_asas-ppdb.png)
+ [![Asas PPDB](adminsekolah/psb-umum_asas-ppdb.png)](adminsekolah/psb-umum_asas-ppdb.png) -->
 
 ### Tampilan Login Admin Sekolah
 
 [![Login Admin Sekolah](adminsekolah/psb-umum_halaman-login-admin.png)](adminsekolah/psb-umum_halaman-login-admin.png)
 
-Di halaman ini akan muncul menu login. Disini hanya terdapat 2 **field** yng harus diisi, yaitu : Username dan juga password yang telah dimiliki. Jika admin ingin kembali ke halaman utama maka admin dapat menekan tombol **back to home** yang akan mengarahkan ke halaman utama.
+Di halaman ini akan muncul menu login. Disini hanya terdapat 2 **field** yng harus diisi, yaitu : Username dan juga password yang telah dimiliki.
 
 ### Tampilan Dashboard Admin Sekolah
 
 [![Dashboard Admin](adminsekolah/psb-umum_halaman-dashboard-utama.png)](adminsekolah/psb-umum_halaman-dashboard-utama.png)
 
-Didalam page ini terdapat beberapa list menu yang dapat diolah oleh admin yang akan terintegrasi dengan aplikasi PPDB. Didalam aplikasi admin juga dapat melihat berapa jumlah user yang terdaftar pada aplikasi PPDB dan beberapa data utama dalam bentuk chart grafik dan pie.
+Didalam page ini terdapat beberapa list menu yang dapat diolah oleh admin yang akan terintegrasi dengan aplikasi PPDB.
 
-#### Tampilan Menu Pendaftaran Admin Sekolah
+### Tampilan Menu Pendaftaran Admin Sekolah
 
 [![Menu Pendaftaran](adminsekolah/psb-umum_menu-pendaftaran-admin.png)](adminsekolah/psb-umum_menu-pendaftaran-admin.png)
 
-Didalam **menu** ini terdapat modul pendaftaran, yang didalamnya terdapat data pendaftaran yang telah diinput oleh siswa. Di menu ini admin dapat melakukan verifikasi pada siswa yang telah mendaftar pada sekolah yang dituju, untuk melakukan verifikasi admin dapat menekan tombol show pada data pendaftaran yang telah ada. Pada menu ini admin dapat mengolah data yang telah ada seperti menambahkan, melihat, mengedit, dan juga menghapus data pendaftaran yang telah ada.
+Didalam **menu** ini terdapat modul pendaftaran, yang didalamnya terdapat data pendaftaran yang telah diinput oleh siswa. Di menu ini admin dapat melakukan verifikasi pada siswa yang telah mendaftar pada sekolah yang dituju, untuk melakukan verifikasi admin dapat menekan tombol show pada data pendaftaran yang telah ada. Setiap siswa yang telah mendaftar akan terlihat statusnya pada tabel pendaftaran. Siswa yang memiliki status **terdaftar** dapat langsung diverifikasi oleh admin.
 
-Berikut ini merupakan tampilan **Add** Pendaftaran:
+[![Siswa Terdaftar](adminsekolah/psb-umum_menu-siswa-terdaftar.png)](adminsekolah/psb-umum_menu-siswa-terdaftar.png)
+
+Untuk melakukan verifikasi maka admin sekolah dapat menekan tombol **Ubah** pada siswa yang memiliki status terdaftar.
+
+[![Form Verifikasi](adminsekolah/psb-umum_menu-tombol-ubah.png)](adminsekolah/psb-umum_menu-tombol-ubah.png)
+
+Jika form sudah terbuka, maka admin mencocokkan data yang di bawa oleh siswa dan yang terdapat di dalam aplikasi, jika data yang terdapat didalam form dirasa sudah benar maka admin sekolah tinggal merubah status pendaftaran pada form menjadi **Verifikasi** lalu tekan tombol simpan.
+
+[![Form Pendaftaran 1](adminsekolah/psb-umum_menu-form-pendaftaran-1.png)](adminsekolah/psb-umum_menu-form-pendaftaran-1.png)
+[![Form Pendaftaran 2](adminsekolah/psb-umum_menu-form-pendaftaran-2.png)](adminsekolah/psb-umum_menu-form-pendaftaran-2.png)
+
+[![Merubah Status Pendaftaran Menjadi Verifikasi](adminsekolah/psb-umum_menu-merubah-status-pendaftaran-menjadi-verifikasi.png)](adminsekolah/psb-umum_menu-merubah-status-pendaftaran-menjadi-verifikasi.png)
+
+Pada tabel pendaftaran akan terlihat status pendaftaran menjadi **Verifikasi**.
+
+[![Status Pendaftaran Menjadi Verifikasi](adminsekolah/psb-umum_menu-status-pendaftaran-menjadi-verifikasi.png)](adminsekolah/psb-umum_menu-status-pendaftaran-menjadi-verifikasi.png)
+
+### Pendaftaran Afirmasi
+
+[![Menu Afirmasi](adminsekolah/psb-umum_menu-afirmasi.png)](adminsekolah/psb-umum_menu-afirmasi.png)
+
+Pendaftaran jalur ini merupakan jalur khusus untuk siswa yang proses pendaftarannya dilakukan oleh admin sekolah. Jalur ini meliputi siswa luar zona, siswa yang datanya tidak terdapat di data Dapodik, dan lain-lain. 
+
+Untuk siswa yang melakukan pendaftaran di jalur ini maka siswa tidak dapat melakukan pindah sekolah dan hanya dapat melakukan sekali pendaftaran.
+
+Berikut ini merupakan form isian yang harus diisi oleh admin sekolah:
+
+[![Form Jalur Afirmasi](adminsekolah/psb-umum_menu-form-afirmasi.png)](adminsekolah/psb-umum_menu-form-afirmasi.png)
+[![Form Jalur Afirmasi2](adminsekolah/psb-umum_menu-form-afirmasi2.png)](adminsekolah/psb-umum_menu-form-afirmasi2.png)
+[![Form Jalur Afirmasi3](adminsekolah/psb-umum_menu-form-afirmasi3.png)](adminsekolah/psb-umum_menu-form-afirmasi3.png)
+
+Berikut ini merupakan form jalur afirmasi yang sudah terisi:
+
+[![Form Jalur Afirmasi Terisi](adminsekolah/psb-umum_menu-form-afirmasi-terisi.png)](adminsekolah/psb-umum_menu-form-afirmasi-terisi.png)
+[![Form Jalur Afirmasi Terisi2](adminsekolah/psb-umum_menu-form-afirmasi-terisi2.png)](adminsekolah/psb-umum_menu-form-afirmasi-terisi2.png)
+[![Form Jalur Afirmasi Terisi3](adminsekolah/psb-umum_menu-form-afirmasi-terisi3.png)](adminsekolah/psb-umum_menu-form-afirmasi-terisi3.png)
+
+Jika pengisian sudah selesai maka data akan muncul pada tabel pendaftaran afirmasi:
+
+[![Tabel Pendaftaran Afirmasi](adminsekolah/psb-umum_menu-tabel-afirmasi.png)](adminsekolah/psb-umum_menu-tabel-afirmasi.png)
+
+<!-- Berikut ini merupakan tampilan **Add** Pendaftaran:
 
  [![Add Pendaftaran](adminsekolah/psb-umum_menu-add-pendaftaran-admin.png)](adminsekolah/psb-umum_menu-add-pendaftaran-admin.png)
 
@@ -134,4 +175,4 @@ Berikut ini merupakan tampilan **Edit** Zona:
 
 [![Edit Zona](adminsekolah/psb-umum_menu-edit-zona-admin.png)](adminsekolah/psb-umum_menu-edit-zona-admin.png)
 
-Di menu ini admin dapat merubah data zona jika dirasa masih ada kesalahan.
+Di menu ini admin dapat merubah data zona jika dirasa masih ada kesalahan. -->
