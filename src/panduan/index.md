@@ -65,18 +65,17 @@ Penyelenggara kegiatan penerimaan Peserta Didik Baru (PPDB) terdiri atas :
 
 |||||
 |---|---|---|---|
-|a. | Penanggungjawab       |  : |   Kepala Dinas Pendidikan dan Kebudayaan Provinsi Banten    |   
-|b. |  Kordinator Pelaksana |  : | Sekretaris Dinas Pendidikan dan Kebudayaan Provinsi Banten  |   
-|c. |  Ketua |  : | Kepala Balai Teknologi dan Komunikasi Pendidikan (BTKIP) Dinas Pendidikan dan Kebudayaan Provinsi Banten  |
-|d. | Wakil Ketua 1  | :  |  Kepala Bidang SMA Dinas Pendidikan dan Kebudayaan Provinsi Banten |
-|e.   | Wakil Ketua 2  | :  | Kepala Bidang SMK Dinas Pendidikan dan Kebudayaan Provinsi Banten  |
-|f.   |Kordinator PPDB SKH   | :  | Kepala Bidang Pendidikan Khusus Dinas Pendidikan dan Kebudayaan Provinsi Banten  |
-|g.   | Kordinator Wilayah  | :  |  Kepala Cabang  Dinas Pendidikan dan Kebudayaan Provinsi Banten di masing-masing Kabupaten/Kota |
-|h.   | Sekretaris 1  | :  | Kepala Seksi Pemanfaatan BTKIP Dinas Pendidikan dan Kebudayaan Provinsi Banten  |
-| i.  | Sekretaris 2  | :  | Kepala Seksi Kesiswaan SMA dan SMK Dinas Pendidikan dan Kebudayaan Provinsi Banten  |
-| j.  |Seksi Pengolah Data   | :  |Kasi Kurikulum SMA, Kasi Kurikulum SMK  Dinas Pendidikan dan Kebudayaan Provinsi Banten   |
-|  k. |Kesekretariatan   | :  |Kasi Evaluasi BTKIP Dinas Pendidikan dan Kebudayaan Provinsi Banten   |
-|l.   |Tim Pengaduan   | :  |Pengawas Sekolah SMA, SMK dan SKH   |
+|a. | Penanggungjawab       |  : |   Kepala Dinas Pendidikan dan Kebudayaan Provinsi Banten    |  
+|b. |  Ketua |  : | Sekretaris Dinas Pendidikan dan Kebudayaan Provinsi Banten  |
+|c. | Wakil Ketua 1  | :  |  Kepala Bidang SMA Dinas Pendidikan dan Kebudayaan Provinsi Banten |
+|d.   | Wakil Ketua 2  | :  | Kepala Bidang SMK Dinas Pendidikan dan Kebudayaan Provinsi Banten  |
+|e.   |Kordinator PPDB SKH   | :  | Kepala Bidang Pendidikan Khusus Dinas Pendidikan dan Kebudayaan Provinsi Banten  |
+|f.   | Kordinator Wilayah  | :  |  Kepala Cabang  Dinas Pendidikan dan Kebudayaan Provinsi Banten di masing-masing Kabupaten/Kota |
+|g.   | Sekretaris 1  | :  | Kepala Balai Teknologi Informasi dan Komunikasi Pendidikan (BTIKP) Dinas Pendidikan dan Kebudayaan Provinsi Banten  |
+| h.  | Sekretaris 2  | :  | Kepala Seksi Pemanfaatan BTKIP Dinas Pendidikan dan Kebudayaan Provinsi Banten  |
+| i.  |Seksi Pengolah Data   | :  |Kasi Kurikulum dan Kasi Kesiswaan SMA, SMK, dan SKH Dinas Pendidikan dan Kebudayaan Provinsi Banten|
+|  j. |Kesekretariatan   | :  |Kasi Evaluasi BTKIP Dinas Pendidikan dan Kebudayaan Provinsi Banten   |
+|k.   |Tim Pengaduan   | :  |Pengawas Sekolah SMA, SMK dan SKH   |
 
 
 ### Persyaratan Calon Peserta Didik Baru
@@ -125,25 +124,25 @@ Penyelenggara kegiatan penerimaan Peserta Didik Baru (PPDB) terdiri atas :
 
   * Jalur bagi calon peserta didik yang berdomisili diluar zonasi terdekat dari sekolah dengan alasan khusus meliputi perpindahan domisili orangtua/wali peserta didik atau terjadi bencana alam/sosial, sebanyak 5% (lima persen) dari total jumlah keseluruhan  peserta didik yang diterima.
 
-### Seleksi dan Presentasi Kuota Penerimaan Peserta Didik Baru
+### Seleksi dan Presentasi Penerimaan Peserta Didik Baru
 
 1. Seleksi dilaksanakan dalam satu zonasi minimal 90% (sembilan Puluh Persen) dan diluar zonasi maksimal 10% (sepuluh persen) Khusus SMA.
 
 2. Seleksi dibagi menjadi:
    * Jalur Umum:
-     * Kuota 70% (tujuh puluh persen) dengan seleksi Nilai SHUN SMP atau bentuk lain yang sederajat dan nilai zonasi bagi SMA.
-     * Kuota 70% (tujuh puluh persen) Nilai SHUN SMP atau bentuk lain yang sederajat dan hasil tes khusus bagi SMK (tes fisik).
+     * Seleksi berdasarkan Nilai SHUN SMP atau bentuk lain yang sederajat dan nilai zonasi bagi SMA.
+     * Seleksi berdasarkan Nilai SHUN SMP atau bentuk lain yang sederajat dan hasil tes khusus bagi SMK (tes fisik).
 
    * Jalur Prestasi:
-      * Kuota 20% (dua puluh persen) dengan seleksi Nilai SHUN SMP atau bentuk lain yang sederajat dan Nilai Prestasi serta nilai zonasi bagi SMA.
-      * Kuota 10% (sepuluh persen) dengan seleksi Nilai SHUN SMP atau bentuk lain yang sederajat dan Nilai Prestasi serta Hasil Tes khusus bagi SMK.
+      * Seleksi berdasarkan Nilai SHUN SMP atau bentuk lain yang sederajat dan Nilai Prestasi serta nilai zonasi bagi SMA.
+      * Seleksi berdasarkan Nilai SHUN SMP atau bentuk lain yang sederajat dan Nilai Prestasi serta Hasil Tes khusus bagi SMK.
 
     Peserta bidang Akademik dan Non Akademik meliputi:
     * Prestasi bidang akademik terdiri dari bakat istimewa dalam lomba akademik.
     * Prestasi Non Akademik terdiri dari Prestasi dalam bidang olah raga atau seni dan budaya.
     * Bukti prestasi akademik dan Non Akademik dibuktikan dengan piagam penghargaan/sertifikat/ surat keterangan yang diakui sekolah minimal juara 3 tingkat kabupaten /kota.
 
-   * Jalur Afirmasi Kuota 20% Khusus SMK
+   * Jalur Afirmasi Khusus SMK
      Yaitu penerimaan peserta didik baru bagi calon siswa yang bertempat tinggal dekat sekolah atau calon siswa yang memiliki MoU (siswa kerja sama):
      * Pelaksanaan seleksi Jalur Afirmasi dilaksanakan oleh satuan pendidikan SMK.
      * Satuan Pendidikan melaporkan hasil seleksi dengan menginput pada Sistem aplikasi PPDB.
@@ -247,11 +246,9 @@ Ketentuan kuota atau daya tampung dalam penerimaan peserta didik baru adalah seb
 
 1. Calon Pesera Didik Baru SMA hanya diperbolehkan memilih 1 (satu) pilihan sekolah yang berada dalam satu zonasi.
 
-2. Calon Peserta Didik SMA memilih 1 (satu) Program Studi pada Sekolah pilihan dalam 1 (satu) zonasi. 
+2. Calon Peserta Didik Baru SMK hanya diperbolehkan memilih 1 (satu) sekolah dengan 1 (satu) kompetensi keahlian pada 1 (satu) bidang keahlian di satu SMK. 
 
-3. Calon Peserta Didik Baru SMK hanya diperbolehkan memilih 1 (satu) sekolah dengan 1 (satu) kompetensi keahlian pada 1 (satu) bidang keahlian di satu SMK. 
-
-4. Calon Peserta Didik Baru yang berkebutuhan khusus dapat diterima di sekolah Pendidikan Khusus.
+3. Calon Peserta Didik Baru yang berkebutuhan khusus dapat diterima di sekolah Pendidikan Khusus.
 
 ### Verifikasi Data/Informasi
 
@@ -275,7 +272,7 @@ Kepala sekolah membuat surat keputusan tentang Peserta Didik Baru yang dinyataka
 
 Sekolah melakukan proses daftar ulang terhadap calon Peserta Didik Baru yang dinyatakan diterima, dengan ketentuan sebagai berikut:
 
-1. Daftar ulang dilaksanakan pada tanggal 11 s.d 13 Juli 2018.
+1. Daftar ulang dilaksanakan pada tanggal 6 s.d 10 Juli 2018.
 
 2. Selama pelaksanaan daftar ulang **dilarang memungut biaya dalam bentuk apapun**.
 
@@ -340,7 +337,7 @@ Pendidikan merupakan salah satu layanan dasar yang harus dipenuhi oleh pemerinta
 
 Dengan disusunnya Pedoman ini, diharapkan dapat menjaring calon-calon Peserta Didik Baru yang berkualitas, menjangkau seluruh lapisan masyarakat sehingga dapat meningkatkan partisipasi masyarakat serta meningkatkan APK SMA/SMK Provinsi Banten.
 
-[![Tanda Tangan](images/tanda-tangan.png)](images/tanda-tangan.png)
+[![Tanda Tangan](index/tanda-tangan.png)](index/tanda-tangan.png)
 
 ### Lampiran
 
@@ -350,59 +347,63 @@ PENSEKORAN KRITERIA PRESTASI
 
 | NO   |      **KEJUARAAN PERORANGAN YANG DISELENGGRAKAN KEMENDIKBUD / KEMENAG**      |  SKOR |
 |:----------:|:-------------:|:------:|
-| 1 |  Juara Internasional                | 48 |
-| 2 | Juara 1 Tingkat Nasional            | 24 |
-| 3 | Juara 2 Tingkat Nasional            | 15 |
-| 4 | Juara 3 Tingkat Nasional            | 13,5 |
-| 5 | Juara 1 Tingkat Provinsi            | 12 |
-| 6 | Juara 2 Tingkat Provinsi            | 10,5 |
-| 7 | Juara 3 Tingkat Provinsi            | 9 |
-| 8 | Juara Harapan Tingkat Provinsi      | 7,5 |
-| 9 | Juara 1 Tingkat Kabupaten/Kota      | 6 |
-| 10 | Juara 2 Tingkat Kabupaten/Kota     | 4,5 |
-| 11 | Juara 3 Tingkat Kabupaten/Kota     | 3 |
+| 1 |  Juara Internasional                | 60 |
+| 2 | Juara 1 Tingkat Nasional            | 55 |
+| 3 | Juara 2 Tingkat Nasional            | 50 |
+| 4 | Juara 3 Tingkat Nasional            | 45 |
+| 5 | Juara 1 Tingkat Provinsi            | 50 |
+| 6 | Juara 2 Tingkat Provinsi            | 45 |
+| 7 | Juara 3 Tingkat Provinsi            | 40 |
+| 8 | Juara Harapan Tingkat Provinsi      | 35 |
+| 9 | Juara 1 Tingkat Kabupaten/Kota      | 30 |
+| 10 | Juara 2 Tingkat Kabupaten/Kota     | 25 |
+| 11 | Juara 3 Tingkat Kabupaten/Kota     | 20 |
 
 | NO   |      **KEJUARAAN PERORANGAN YANG DI SELENGGARAKAN DI LUAR KEMENDIKBUD / KEMENAG**      |  SKOR |
 |:----------:|:-------------:|:------:|
-| 1 |  Juara Internasional                | 12 |
-| 2 | Juara 1 Tingkat Nasional            | 10,5 |
-| 3 | Juara 2 Tingkat Nasional            | 9 |
-| 4 | Juara 3 Tingkat Nasional            | 7,5 |
-| 5 | Juara 1 Tingkat Provinsi            | 4 |
-| 6 | Juara 2 Tingkat Provinsi            | 3,5 |
-| 7 | Juara 3 Tingkat Provinsi            | 3 |
-| 8 | Juara Harapan Tingkat Provinsi      | 2,5 |
-| 9 | Juara 1 Tingkat Kabupaten/Kota      | 2 |
-| 10 | Juara 2 Tingkat Kabupaten/Kota     | 1,5 |
-| 11 | Juara 3 Tingkat Kabupaten/Kota     | 1 |
+| 1 |  Juara Internasional                | 60 |
+| 2 | Juara 1 Tingkat Nasional            | 55 |
+| 3 | Juara 2 Tingkat Nasional            | 50 |
+| 4 | Juara 3 Tingkat Nasional            | 45 |
+| 5 | Juara 1 Tingkat Provinsi            | 50 |
+| 6 | Juara 2 Tingkat Provinsi            | 45 |
+| 7 | Juara 3 Tingkat Provinsi            | 40 |
+| 8 | Juara Harapan Tingkat Provinsi      | 35 |
+| 9 | Juara 1 Tingkat Kabupaten/Kota      | 30 |
+| 10 | Juara 2 Tingkat Kabupaten/Kota     | 25 |
+| 11 | Juara 3 Tingkat Kabupaten/Kota     | 20 |
 
 | NO   |      **KEJUARAAN BEREGU YANG DISELENGGRAKAN KEMENDIKBUD / KEMENAG**      |  SKOR |
 |:----------:|:-------------:|:------:|
-| 1 |  Juara Internasional                | 25 |
-| 2 | Juara 1 Tingkat Nasional            | 12 |
-| 3 | Juara 2 Tingkat Nasional            | 11 |
-| 4 | Juara 3 Tingkat Nasional            | 10 |
-| 5 | Juara 1 Tingkat Provinsi            | 9 |
-| 6 | Juara 2 Tingkat Provinsi            | 8 |
-| 7 | Juara 3 Tingkat Provinsi            | 7 |
-| 8 | Juara Harapan Tingkat Provinsi      | 6 |
-| 9 | Juara 1 Tingkat Kabupaten/Kota      | 5 |
-| 10 | Juara 2 Tingkat Kabupaten/Kota     | 4 |
-| 11 | Juara 3 Tingkat Kabupaten/Kota     | 3 |
+| 1 |  Juara Internasional                | 50 |
+| 2 | Juara 1 Tingkat Nasional            | 45 |
+| 3 | Juara 2 Tingkat Nasional            | 40 |
+| 4 | Juara 3 Tingkat Nasional            | 35 |
+| 5 | Juara 1 Tingkat Provinsi            | 40 |
+| 6 | Juara 2 Tingkat Provinsi            | 35 |
+| 7 | Juara 3 Tingkat Provinsi            | 30 |
+| 8 | Juara Harapan Tingkat Provinsi      | 25 |
+| 9 | Juara 1 Tingkat Kabupaten/Kota      | 20 |
+| 10 | Juara 2 Tingkat Kabupaten/Kota     | 15 |
+| 11 | Juara 3 Tingkat Kabupaten/Kota     | 10 |
 
 | NO   |      **KEJUARAAN BEREGU YANG DI SELENGGARAKAN DI LUAR KEMENDIKBUD / KEMENAG**      |  SKOR |
 |:----------:|:-------------:|:------:|
-| 1 |  Juara Internasional                | 25 |
-| 2 | Juara 1 Tingkat Nasional            | 12 |
-| 3 | Juara 2 Tingkat Nasional            | 11 |
-| 4 | Juara 3 Tingkat Nasional            | 10 |
-| 5 | Juara 1 Tingkat Provinsi            | 9 |
-| 6 | Juara 2 Tingkat Provinsi            | 8 |
-| 7 | Juara 3 Tingkat Provinsi            | 7 |
-| 8 | Juara Harapan Tingkat Provinsi      | 6 |
-| 9 | Juara 1 Tingkat Kabupaten/Kota      | 5 |
-| 10 | Juara 2 Tingkat Kabupaten/Kota     | 4 |
-| 11 | Juara 3 Tingkat Kabupaten/Kota     | 3 |
+| 1 |  Juara Internasional                | 50 |
+| 2 | Juara 1 Tingkat Nasional            | 45 |
+| 3 | Juara 2 Tingkat Nasional            | 40 |
+| 4 | Juara 3 Tingkat Nasional            | 35 |
+| 5 | Juara 1 Tingkat Provinsi            | 40 |
+| 6 | Juara 2 Tingkat Provinsi            | 35 |
+| 7 | Juara 3 Tingkat Provinsi            | 30 |
+| 8 | Juara Harapan Tingkat Provinsi      | 25 |
+| 9 | Juara 1 Tingkat Kabupaten/Kota      | 20 |
+| 10 | Juara 2 Tingkat Kabupaten/Kota     | 15 |
+| 11 | Juara 3 Tingkat Kabupaten/Kota     | 10 |
+
+| NO   |      **PENGHARGAAN KETUA OSIS**      |  SKOR |
+|:----------:|:-------------:|:------:|
+| 1 |  Penghargaan bagi Ketua Osis                | 10 |
 
 
 #### Lampiran 2
@@ -430,17 +431,17 @@ ALAMAT KARTU KELUARGA DENGAN SEKOLAH
 
 Formulir Pendaftaran
 
-[![Formulir Pendaftaran Format 1](images/formulir-pendaftaran-format1.png)](images/formulir-pendaftaran-format1.png)
+[![Formulir Pendaftaran Format 1](index/formulir-pendaftaran-format1.png)](index/formulir-pendaftaran-format1.png)
 
-[![Formulir Pendaftaran Format 2](images/formulir-pendaftaran-format2.png)](images/formulir-pendaftaran-format2.png)
+[![Formulir Pendaftaran Format 2](index/formulir-pendaftaran-format2.png)](index/formulir-pendaftaran-format2.png)
 
-[![Formulir Pendaftaran Format 3](images/formulir-pendaftaran-format3.png)](images/formulir-pendaftaran-format3.png)
+[![Formulir Pendaftaran Format 3](index/formulir-pendaftaran-format3.png)](index/formulir-pendaftaran-format3.png)
 
 #### Lampiran 4 
 
 Alur Penerimaan Peserta Didik Baru Tahun Pelajaran 2018/2019
 
-[![Alur Penerimaan](images/alur-penerimaan.png)](images/alur-penerimaan.png)
+[![Alur Penerimaan](index/alur-penerimaan.png)](index/alur-penerimaan.png)
 
 #### Lampiran 5
 
@@ -452,13 +453,12 @@ Jadwal Kegiatan PPDB 2018/2019
 | 2 | Sosialisasi dan Pengusulan zonasi PPDB  | 12-15 Maret 2018 |KCD, Pengawas, MKKS SMA/SMK|
 | 3 | Penetapan zonasi dan Daya tampung PPDB  | 2 April 2018 |Dindikbud|
 | 4 | Sosialisasi dan Workshop Operator PPDB SMA/SMK  | 16 April s.d 29 Mei 2018 |Sekolah|
-| 5 | Pendaftaran dan verifikasi berkas PPDB SMA/SMK  | 5 - 9 Juni 2018 |Calon Siswa, Sekolah|
-| 6 | Tes Khusus SMK  | 2 – 9 Juni 2018 |Sekolah|
-| 7 | Proses Aktivasi Pendaftaran On Line SMA/SMK  | 2 - 9 Juni 2018 |Sekolah|
-| 8 | Proses Pindah pilihan Online  | 5 – 9 Juni 2018 |Calon Siswa|
-| 9 | Pengolahan Data Seleksi oleh sistem PPDB SMA/SMK  | 2 – 10 Juni 2018 |Dindikbud|
-| 10 | SK Penetapan dan pengumuman Peserta Didik Baru yang diterima bagi yang suda memenuhi Kuota  | 12 Juni 2018 |Dindikbud|
-| 11 | SK Penetapan dan Pengumuman Penerimaan Peserta Didik Baru bagi yang belum memenuhi kuota  | 22 Juni 2018 |Sekolah|
-| 12 | Daftar Ulang  | 11-13 Juli 2018 |Sekolah|
-| 13 | Awal Tahun Pelajaran  | 17 Juli 2018 |Sekolah|
+| 5 | Pendaftaran dan verifikasi berkas PPDB SMA/SMK  | 21 - 27 Juni 2018 |Calon Siswa, Sekolah|
+| 6 | Proses Aktivasi Pendaftaran On Line SMA/SMK  | 21 - 27 Juni 2018 |Sekolah|
+| 7 | Proses Pindah pilihan Online  | 23 – 27 Juni 2018 |Calon Siswa|
+| 8 | Pengolahan Data Seleksi oleh sistem PPDB SMA/SMK  | 28 – 30 Juni 2018 |Dindikbud|
+| 9 | SK Penetapan dan pengumuman Peserta Didik Baru yang diterima bagi yang sudah memenuhi Kuota  | 2 Juli 2018 |Web PPDB/Dindikbud|
+| 10 | SK Penetapan dan Pengumuman Penerimaan Peserta Didik Baru bagi yang belum memenuhi kuota  | 5 Juli 2018 |Sekolah|
+| 11 | Daftar Ulang  | 6-10 Juli 2018 |Sekolah|
+| 12 | Awal Tahun Pelajaran  | 16 Juli 2018 |Sekolah|
 
