@@ -63,16 +63,6 @@ Untuk masuk ke halaman pendaftaran siswa di haruskan login dahulu menggunakan ak
 
 Di form ini hanya terdapat 3 field yang harus diisi, yaitu Nomor UN, Password, dan Captcha (Diisi dengan hasil dari angka penjumlahan yang tertera dilayar). Jika sudah diisi maka akan langsung tampil menu pendaftaran siswa.  
 
-### Tampilan Lupa Password
- 
-[![Tampilan Lupa Password](images/reset-password.png)](images/reset-password.png)
-
-Menu lupa password adalah fasilitas yang disediakan untuk siswa ketika siswa lupa akan password yang dimilikinya. Untuk mengakses halaman ini, siswa harus menghubungi admin sekolah dimana siswa mendaftar. Jika sudah menghubungi admin sekolah, maka admin sekolah akan mereset password login siswa. Lalu siswa mengakses halaman login sesuai dengan **Nomor UN** yang dimiliki dan password yang telah diberikan oleh admin sekolah. Setelah login berhasil maka akan muncul form untuk merubah password yang baru. Berikut merupakan contoh form ganti password:
-
- [![Form Lupa Password](images/form-reset-password.png)](images/form-reset-password.png)
-
-Di form ini siswa memasukkan password yang baru, yang nantinya bisa di pakai untuk login selanjutnya.
-
 ### Tampilan Menu Dashboard Pendaftaran Siswa
 
  [![Menu Pendaftaran](images/menu-pendaftaran.png)](images/menu-pendaftaran.png)
@@ -255,4 +245,14 @@ Setelah melakukan perpindahan sekolah:
 [![Setelah Melakukan Perpindahan Sekolah](images/form-setelah-pindah-sekolah.png)](images/form-setelah-pindah-sekolah.png)
 
 <!-- ## Passing Grade -->
+
+### Tampilan Lupa Password
+ 
+[![Tampilan Lupa Password](images/reset-password.png)](images/reset-password.png)
+
+Menu lupa password adalah fasilitas yang disediakan untuk siswa ketika siswa lupa akan password yang dimilikinya. Untuk mengakses halaman ini, siswa harus menghubungi admin sekolah dimana siswa mendaftar. Jika sudah menghubungi admin sekolah, maka admin sekolah akan mereset password login siswa. Lalu siswa mengakses halaman login sesuai dengan **Nomor UN** yang dimiliki dan password yang telah diberikan oleh admin sekolah. Setelah login berhasil maka akan muncul form untuk merubah password yang baru. Berikut merupakan contoh form ganti password:
+
+[![Form Lupa Password](images/form-reset-password.png)](images/form-reset-password.png)
+
+Di form ini siswa memasukkan password yang baru, yang nantinya bisa di pakai untuk login selanjutnya.
 
