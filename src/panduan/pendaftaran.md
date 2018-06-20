@@ -40,10 +40,8 @@ Berikut langkah-langkahnya:
 
  - Pendaftaran SMA Jalur Prestasi
  - Pendaftaran SMA Jalur Umum
- - Pendaftaran SMA Jalur Keluarga Ekonomi Tidak Mampu
  - Pendaftaran SMK Jalur Prestasi
  - Pendaftaran SMK Jalur Umum
- - Pendaftaran SMK Jalur Keluarga Ekonomi Tidak Mampu 
 
 4. Tanggal Lahir: Pada field ini siswa diharuskan mengisi tanggal lahir siswa sesuai yang tertera pada kartu keluarga. Format yang diisi yaitu: tanggal-bulan-tahun, contoh jika siswa lahir pada tanggal 01 Februari 2003 maka format yang harus diisi yaitu: **010203**.
 
@@ -65,17 +63,21 @@ Untuk masuk ke halaman pendaftaran siswa di haruskan login dahulu menggunakan ak
 
 Di form ini hanya terdapat 3 field yang harus diisi, yaitu Nomor UN, Password, dan Captcha (Diisi dengan hasil dari angka penjumlahan yang tertera dilayar). Jika sudah diisi maka akan langsung tampil menu pendaftaran siswa.  
 
-<!--### Tampilan Lupa Password
+### Tampilan Lupa Password
  
-  [![Tampilan Lupa Password](images/reset-password.png)](images/reset-password.png)
+[![Tampilan Lupa Password](images/reset-password.png)](images/reset-password.png)
 
-Untuk mengakses halaman ini, siswa harus menekan tulisan **Forgot Your Password?** pada form login. Dihalaman ini siswa akan melihat form yang bertuliskan reset password, halaman ini berfungsi untuk melakukan reset password, jika siswa lupa dengan password akun yang dimiliki. Siswa dapat menuliskan alamat e-mail didalam form yang tersedia, lalu menekan tombol "Send Password Reset Link" maka akan dikirimkan password baru pada alamat e-mail yang dikirimkan. -->
+Menu lupa password adalah fasilitas yang disediakan untuk siswa ketika siswa lupa akan password yang dimilikinya. Untuk mengakses halaman ini, siswa harus menghubungi admin sekolah dimana siswa mendaftar. Jika sudah menghubungi admin sekolah, maka admin sekolah akan mereset password login siswa. Lalu siswa mengakses halaman login sesuai dengan **Nomor UN** yang dimiliki dan password yang telah diberikan oleh admin sekolah. Setelah login berhasil maka akan muncul form untuk merubah password yang baru. Berikut merupakan contoh form ganti password:
 
-### Tampilan Menu Pendaftaran Siswa
+ [![Form Lupa Password](images/form-reset-password.png)](images/form-reset-password.png)
+
+Di form ini siswa memasukkan password yang baru, yang nantinya bisa di pakai untuk login selanjutnya.
+
+### Tampilan Menu Dashboard Pendaftaran Siswa
 
  [![Menu Pendaftaran](images/menu-pendaftaran.png)](images/menu-pendaftaran.png)
 
-Didalam halaman ini, siswa dapat melakukan pendaftaran ke sekolah yang akan ditujunya. Untuk melakukan proses pendaftaran siswa di haruskan mengisi form-form yang telah disediakan. Dan pada bagian kanan atas halaman terdapat menu profile yang dapat dilihat dan jika di klik akan mengarahkan ke menu profile siswa.
+Didalam halaman ini, siswa dapat melakukan pendaftaran ke sekolah yang akan ditujunya. Untuk melakukan proses pendaftaran siswa di haruskan mengisi form-form yang telah disediakan.
 
 ### Form Data Siswa
 
@@ -83,7 +85,7 @@ Didalam halaman ini, siswa dapat melakukan pendaftaran ke sekolah yang akan ditu
 
 Di form ini siswa harus melengkapi identitas lengkap dengan mengisi field yang tersedia. Pada form ini terdapat 7 field yang tersedia yaitu: Nomor UN, Nama Siswa, Tempat Lahir, Tanggal Lahir, Jenis Kelamin, Agama, dan NISN.
 
-Pada form ini field Nomor UN, Nama Siswa, Tempat Lahir, Tanggal Lahir dan NISN akan otomatis terisi, jadi siswa hanya mengisi field Agama saja.
+Pada form ini field Nomor UN, Nama Siswa, Tempat Lahir, Tanggal Lahir dan NISN akan otomatis terisi, jadi siswa hanya mengisi field Jenis Kelamin dan Agama saja.
 
 Berikut ini merupakan contoh form yang sudah selesai terisi:
 
@@ -155,17 +157,11 @@ Prodi Sekolah: Field ini hanya muncul untuk siswa yang memilih jalur pendaftaran
 
  [![Field Prodi Sekolah](images/prodi-sekolah.png)](images/prodi-sekolah.png) 
 
-### Form Data Nilai UN
-
-[![Form Akademik](images/form-akademik.png)](images/form-akademik.png)
-
-Di form ini terdapat informasi mengenai hasil Nilai UN siswa. Siswa bisa melihat Nilai UN yang didapatkan oleh siswa.
-
 ### Form SKTM
 
 [![Form SKTM](images/form-data-sktm.png)](images/form-data-sktm.png)
 
-Form ini hanya tersedia bagi siswa yang memilih pendaftaran jalur **Keluarga Ekonomi Tidak Mampu**. 
+Form ini hanya tersedia bagi siswa yang memilih pendaftaran jalur **Umum**. 
 
 Di form ini siswa harus mengisi data SKTM yang dimiliki oleh siswa. Pada form ini terdapat 3 field yang harus diisi yaitu: SKTM, Nomor SKTM, dan Tanggal Dikeluarkan/Masa Berlaku.
 
@@ -211,6 +207,19 @@ Jika field yang dibutuhkan sudah diisi maka siswa bisa melanjutkan mengisi form 
 
  [![Tombol simpan](images/tombol-simpan-menu-pendaftaran.png)](images/tombol-simpan-menu-pendaftaran.png)
 
+### Form Cetak Formulir
+
+[![Form Cetak Formulir](images/form-cetak-formulir.png)](images/form-cetak-formulir.png)
+[![Form Cetak Formulir2](images/form-cetak-formulir2.png)](images/form-cetak-formulir2.png)
+
+Form ini akan otomatis terbuka jika semua isian pendaftaran telah selesai terisi. Pada menu ini siswa bisa mencetak formulir berdasarkan data yang telah diisi oleh siswa. Data ini bisa dijadikan bukti bahwa siswa telah melakukan pendaftaran online.
+
+### Form Data Nilai UN
+
+[![Form Akademik](images/form-akademik.png)](images/form-akademik.png)
+
+Di form ini terdapat informasi mengenai hasil Nilai UN siswa. Siswa bisa melihat Nilai UN yang didapatkan oleh siswa.
+
 ### Tampilan Menu Pindah Sekolah
 
 [![Form Pindah Sekolah](images/form-pindah-sekolah.png)](images/form-pindah-sekolah.png)
@@ -231,9 +240,11 @@ Jika field yang dibutuhkan sudah diisi maka siswa bisa melanjutkan mengisi form 
 
  - Jika pengisian sudah selesai maka tekan tombol **Simpan**.
 
+Untuk siswa yang mendaftar ke jalur pendaftaran **SMK** maka siswa tersebut bisa melakukan pindah sekolah ke sekolah lainnya tetapi dengan program keahlian yang sama sesuai paket keahlian yang ada di sekolah tujuan yang baru. 
+
  [![Form pindah sekolah terisi](images/form-pindah-sekolah-terisi.png)](images/form-pindah-sekolah-terisi.png)
 
-Beikut ini adalah hasil dari perpindahan sekolah yang telah dilakukan oleh siswa:
+Berikut ini adalah hasil dari perpindahan sekolah yang telah dilakukan oleh siswa:
 
 Sebelum melakukan perpindahan sekolah (Pada contoh ini sekolah terakhir yang dituju siswa adalah **SMK Negeri 1 Kragilan**):
 
@@ -243,5 +254,5 @@ Setelah melakukan perpindahan sekolah:
 
 [![Setelah Melakukan Perpindahan Sekolah](images/form-setelah-pindah-sekolah.png)](images/form-setelah-pindah-sekolah.png)
 
-## Passing Grade
+<!-- ## Passing Grade -->
 
