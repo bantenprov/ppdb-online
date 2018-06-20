@@ -57,6 +57,8 @@ Pada tabel pendaftaran akan terlihat status pendaftaran menjadi **Verifikasi**.
 
 [![Menu Afirmasi](adminsekolah/psb-umum_menu-afirmasi.png)](adminsekolah/psb-umum_menu-afirmasi.png)
 
+[![Tabel Afirmasi Masih Kosong](adminsekolah/psb-umum_tabel-afirmasi-masih-kosong.png)](adminsekolah/psb-umum_tabel-afirmasi-masih-kosong.png)
+
 Pendaftaran jalur ini merupakan jalur khusus untuk siswa yang proses pendaftarannya dilakukan oleh admin sekolah. Jalur ini meliputi siswa luar zona, siswa yang datanya tidak terdapat di data Dapodik, dan lain-lain. 
 
 Untuk siswa yang melakukan pendaftaran di jalur ini maka siswa tidak dapat melakukan pindah sekolah dan hanya dapat melakukan sekali pendaftaran.
@@ -67,7 +69,7 @@ Berikut ini merupakan form isian yang harus diisi oleh admin sekolah:
 [![Form Jalur Afirmasi2](adminsekolah/psb-umum_menu-form-afirmasi2.png)](adminsekolah/psb-umum_menu-form-afirmasi2.png)
 [![Form Jalur Afirmasi3](adminsekolah/psb-umum_menu-form-afirmasi3.png)](adminsekolah/psb-umum_menu-form-afirmasi3.png)
 
-Berikut ini merupakan form jalur afirmasi yang sudah terisi:
+Berikut ini merupakan form jalur Afirmasi yang sudah terisi:
 
 [![Form Jalur Afirmasi Terisi](adminsekolah/psb-umum_menu-form-afirmasi-terisi.png)](adminsekolah/psb-umum_menu-form-afirmasi-terisi.png)
 [![Form Jalur Afirmasi Terisi2](adminsekolah/psb-umum_menu-form-afirmasi-terisi2.png)](adminsekolah/psb-umum_menu-form-afirmasi-terisi2.png)
@@ -77,102 +79,42 @@ Jika pengisian sudah selesai maka data akan muncul pada tabel pendaftaran afirma
 
 [![Tabel Pendaftaran Afirmasi](adminsekolah/psb-umum_menu-tabel-afirmasi.png)](adminsekolah/psb-umum_menu-tabel-afirmasi.png)
 
-<!-- Berikut ini merupakan tampilan **Add** Pendaftaran:
+### Pendaftaran Luar Zona
 
- [![Add Pendaftaran](adminsekolah/psb-umum_menu-add-pendaftaran-admin.png)](adminsekolah/psb-umum_menu-add-pendaftaran-admin.png)
+[![Menu Luar Zona](adminsekolah/psb-umum_menu-luar-zona.png)](adminsekolah/psb-umum_menu-luar-zona.png)
 
-Di menu ini admin dapat menambahkan data pendaftaran yaitu: Sekolah Tujuan dan Kegiatan.
+[![Tabel Luar Zona Masih Kosong](adminsekolah/psb-umum_tabel-luar-zona-masih-kosong.png)](adminsekolah/psb-umum_tabel-luar-zona-masih-kosong.png)
 
-Berikut ini merupakan tampilan **Show** Pendaftaran:
+Pendaftaran jalur ini merupakan jalur khusus untuk siswa yang proses pendaftarannya dilakukan oleh admin sekolah. Jalur ini meliputi siswa yang memiliki kartu keluarga di Provinsi Banten tetapi datanya tidak terdapat di data Dapodik. 
 
- [![Show Pendaftaran](adminsekolah/psb-umum_menu-show-pendaftaran-admin.png)](adminsekolah/psb-umum_menu-show-pendaftaran-admin.png)
+Untuk siswa yang melakukan pendaftaran di jalur ini maka siswa tidak dapat melakukan pindah sekolah dan hanya dapat melakukan sekali pendaftaran.
 
-Di menu ini admin dapat melihat data pendaftaran yang telah dibuat. Pada menu ini admin dapat melihat status pendaftaran siswa yang telah mendaftar dan melakukan verifikasi terhadap siswa tersebut. Berikut ini merupakan contoh pendaftaran siswa yang belum di verifikasi oleh admin, terlihat dari status pendaftaran siswa dan **history** yang tertera di bagian bawah masih Propose (Pengajuan). 
+Berikut ini merupakan form isian yang harus diisi oleh admin sekolah:
 
- [![Belum Verifikasi](adminsekolah/psb-umum_siswa-belum-diverifikasi-admin.png)](adminsekolah/psb-umum_siswa-belum-diverifikasi-admin.png)
+[![Form Jalur Luar Zona](adminsekolah/psb-umum_menu-form-luar-zona.png)](adminsekolah/psb-umum_menu-form-luar-zona.png)
 
-Sebelum melakukan verifikasi admin harus menginput nilai Prestasi (Dilakukan hanya jika siswa mendaftar jalur prestasi), Nilai SKTM, dan Nilai Zona. Jika Semua nilai sudah diinput maka admin dapat melakukan verifikasi pada siswa tersebut dengan menekan tombol verifikasi dan menuliskan keterangan verifikasi pada kolom yang tersedia.
+Berikut ini merupakan form jalur Luar Zona yang sudah terisi:
 
- [![Kolom Keterangan](adminsekolah/kolom-komentar.png)](adminsekolah/kolom-komentar.png)
+[![Form Jalur Luar Zona Terisi](adminsekolah/psb-umum_menu-form-luar-zona-terisi.png)](adminsekolah/psb-umum_menu-form-luar-zona-terisi.png)
 
-Jika Admin telah melakukan verifikasi, maka status pendaftaran akan berubah menjadi **Verifikasi** yang akan terlihat di status pendaftaran dan history-nya. Dan Nilai yang telah diinput akan tampil di halaman Pendaftaran Siswa. Berikut merupakan contoh gambar pendaftaran yang telah di verifikasi oleh admin:
+Jika pengisian sudah selesai maka data akan muncul pada tabel pendaftaran Luar Zona:
 
- [![Sudah Verifikasi](adminsekolah/siswa-telah-diverifikasi.png)](adminsekolah/siswa-telah-diverifikasi.png)
+[![Tabel Pendaftaran Luar Zona](adminsekolah/psb-umum_menu-tabel-luar-zona.png)](adminsekolah/psb-umum_menu-tabel-luar-zona.png)
 
-Berikut ini merupakan tampilan **Edit** Pendaftaran:
+### Reset Password
 
-[![Edit Pendaftaran](adminsekolah/psb-umum_menu-edit-pendaftaran-admin.png)](adminsekolah/psb-umum_menu-edit-pendaftaran-admin.png)
+[![Menu Reset Password](adminsekolah/psb-umum_menu-reset-password.png)](adminsekolah/psb-umum_menu-reset-password.png)
 
-Di menu ini admin dapat merubah data pendaftaran jika dirasa masih ada kesalahan.
+Menu ini berfungsi untuk melakukan reset password bagi siswa yang lupa akan login passwordnya. Admin hanya bisa mereset password siswa yang mendaftar ke sekolah dimana admin bekerja (Jika siswa mendaftar ke **SMA Negeri 1 Pandeglang** maka hanya admin sekolah **SMA Negri 1 Pandeglang** yang bisa me-reset password siswa tersebut.
 
-#### Tampilan Menu Prestasi Admin Sekolah
+Di menu ini admin bisa merubah password siswa yang kemudian diberikan kepada siswa tersebut.
 
-[![Menu Prestasi](adminsekolah/psb-umum_menu-prestasi-admin.png)](adminsekolah/psb-umum_menu-prestasi-admin.png)
+Berikut ini merupakan form isian yang harus diisi oleh admin sekolah:
 
-Didalam **menu** ini terdapat data prestasi siswa dari lomba yang telah diikutinya. Setiap lomba memiliki nilai yang berbeda-beda dan akan di kalkulasikan ke dalam menu **nilai**. Pada menu ini admin dapat melihat daftar siswa yang memiliki prestasi dan lomba yang diikutinya beserta tingkat dan juaranya. Pada menu ini admin dapat menambahkan, melihat, mengedit, dan juga menghapus data prestasi siswa yang telah ada.
+[![Form Reset Password](adminsekolah/psb-umum_menu-form-reset-password.png)](adminsekolah/psb-umum_menu-form-reset-password.png)
 
-Berikut ini merupakan tampilan **Add** Prestasi:
+Berikut ini merupakan form reset password yang sudah terisi:
 
-[![Add Prestasi](adminsekolah/psb-umum_menu-add-prestasi-admin.png)](adminsekolah/psb-umum_menu-add-prestasi-admin.png)
+[![Form Reset Password Terisi](adminsekolah/psb-umum_menu-form-reset-password-terisi.png)](adminsekolah/psb-umum_menu-form-reset-password-terisi.png)
 
-Di menu ini admin dapat menambahkan data prestasi yaitu: Nama Siswa, Master Prestasi, dan Nama Lomba.
-
-Berikut ini merupakan tampilan **Show** Prestasi:
-
-[![Show Prestasi](adminsekolah/psb-umum_menu-show-prestasi-admin.png)](adminsekolah/psb-umum_menu-show-prestasi-admin.png)
-
-Di menu ini admin dapat melihat data prestasi yang telah dibuat.
-
-Berikut ini merupakan tampilan **Edit** Prestasi:
-
-[![Edit Prestasi](adminsekolah/psb-umum_menu-edit-prestasi-admin.png)](adminsekolah/psb-umum_menu-edit-prestasi-admin.png)
-
-Di menu ini admin dapat merubah data prestasi jika dirasa masih ada kesalahan.
-
-#### Tampilan Menu SKTM Admin Sekolah
-
-[![Menu SKTM](adminsekolah/psb-umum_menu-sktm-admin.png)](adminsekolah/psb-umum_menu-sktm-admin.png)
-
-Didalam **menu** ini terdapat data mengenai siswa yang memiliki surat keterangan tidak mampu **SKTM**. Siswa yang memiliki SKTM akan mendapatkan nomor SKTM dan juga nilai yang nantinya akan dikalkulasikan ke menu **nilai**. Pada menu ini admin dapat melihat daftar siswa yang memiliki SKTM beserta jenisnya. Pada menu ini admin dapat menambahkan, melihat, mengedit, dan juga menghapus data siswa pemegang SKTM yang telah ada.
-
-Berikut ini merupakan tampilan **Add** SKTM:
-
-[![Add SKTM](adminsekolah/psb-umum_menu-add-sktm-admin.png)](adminsekolah/psb-umum_menu-add-sktm-admin.png)
-
-Di menu ini admin dapat menambahkan data SKTM yaitu: Nama Siswa, Kriteria SKTM, dan No SKTM.
-
-Berikut ini merupakan tampilan **Show** SKTM:
-
-[![Show SKTM](adminsekolah/psb-umum_menu-show-sktm-admin.png)](adminsekolah/psb-umum_menu-show-sktm-admin.png)
-
-Di menu ini admin dapat melihat data SKTM yang telah dibuat.
-
-Berikut ini merupakan tampilan **Edit** SKTM:
-
-[![Edit SKTM](adminsekolah/psb-umum_menu-edit-sktm-admin.png)](adminsekolah/psb-umum_menu-edit-sktm-admin.png)
-
-Di menu ini admin dapat merubah data SKTM jika dirasa masih ada kesalahan.
-
-#### Tampilan Menu Zona Admin Sekolah
-
-[![Menu Zona](adminsekolah/psb-umum_menu-zona-admin.png)](adminsekolah/psb-umum_menu-zona-admin.png)
-
-Didalam **menu** ini terdapat data zona siswa dan zona sekolah yang dipilih oleh siswa ketika melakukan pendaftaran. Pada menu ini ketika admin menginput nama siswa maka zona siswa tersebut dan zona sekolah yang dipilihnya akan dibandingkan untuk mendapatkan nilai zona. Didalam menu ini zona siswa dan juga sekolah mempengaruhi nilai zona tersebut, yang nantinya akan dikalkulasikan ke dalam menu nilai. Pada menu ini admin dapat menambahkan, melihat, mengedit, dan juga menghapus data zona siswa yang telah ada.
-
-Berikut ini merupakan tampilan **Add** Zona:
-
-[![Add Zona](adminsekolah/psb-umum_menu-add-zona-admin.png)](adminsekolah/psb-umum_menu-add-zona-admin.png)
-
-Di menu ini admin dapat menambahkan data zona yaitu: Nama Siswa. Wilayah Zonasi otomatis ter-input ketika admin menambahkan Nama Siswa.
-
-Berikut ini merupakan tampilan **Show** Zona:
-
-[![Show Zona](adminsekolah/psb-umum_menu-show-zona-admin.png)](adminsekolah/psb-umum_menu-show-zona-admin.png)
-
-Di menu ini admin dapat melihat data zona yang telah dibuat.
-
-Berikut ini merupakan tampilan **Edit** Zona:
-
-[![Edit Zona](adminsekolah/psb-umum_menu-edit-zona-admin.png)](adminsekolah/psb-umum_menu-edit-zona-admin.png)
-
-Di menu ini admin dapat merubah data zona jika dirasa masih ada kesalahan. -->
+Setelah siswa menerima password dari admin, maka siswa bisa login ke akunnya dan akan langsung terbuka form reset password di akun siswa tersebut (Untuk melakukan reset password siswa bisa di lihat di **Panduan Siswa**)
